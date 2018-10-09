@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script>
+        function doin(num){
+            var d =  document.all.display
+            d.value = d.value + num
+        }
+        function cal(){
+            var d=document.all.display;
+            d.value=eval(d.value)
+        }
+    </script>
+</head>
+<hr>
+<body>
+    <input type="text" style="background-color:red" id="display"><br>
+    <input type="button" value="0" onclick="doin(0)">
+    <input type="button" value="1" onclick="doin(1)">
+    <input type="button" value="2" onclick="doin(2)">
+    <input type="button" value="3" onclick="doin(3)">
+    <input type="button" value="4" onclick="doin(4)"><br>
+    <input type="button" value="5" onclick="doin(5)">
+    <input type="button" value="6" onclick="doin(6)">
+    <input type="button" value="7" onclick="doin(7)">
+    <input type="button" value="8" onclick="doin(8)">
+    <input type="button" value="9" onclick="doin(9)"><br>
+    <input type="button" value="(" onclick="doin('(')">
+    <input type="button" value=")" onclick="doin(')')">
+    <input type="button" value="+" onclick="doin('+')">
+    <input type="button" value="-" onclick="doin('-')">
+    <input type="button" value="=" onclick="cal()">
+</body>
+</html>

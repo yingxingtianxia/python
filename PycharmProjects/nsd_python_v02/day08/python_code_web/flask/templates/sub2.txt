@@ -1,0 +1,8 @@
+this is sub2:{{title}}{{user.nickname}}{{sub2}}
+{% for item in sub2%}
+<li>{{ item['xm']}},{{item.age,'aaa'}}</li>
+{% endfor %}
+
+{{
+time.time()
+}}

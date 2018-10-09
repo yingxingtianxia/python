@@ -1,0 +1,9 @@
+
+<table>
+{% for p in list %}
+    <tr><td><img src=/static/{{p[3]}} width="50px"></td><td>{{p[1]}}</td><td>{{p[4]}}</td></tr>
+{% endfor %}
+</table>
+Total:{{total_money}}
+<br>
+<input type="button" value="pay">

@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function cv(){
+                document.all.week.options[4].selected = true;
+                //alert(document.all.week.options[1].selected);
+            }
+            function mychange(){
+                var s = document.all.week;
+                var i = s.selectedIndex;
+                alert("your choice:" + s.options[i].text + ",value=" +s.options[i].value)
+            }
+        </script>
+    </head>
+
+    <body>
+        <hr>
+        <input type="button" value="ChangeSelect" onclick="cv()">
+        <select id="week" onchange="mychange()">
+            <option value="1">Monday</option>
+            <option value="2" selected>Tuesday</option>
+            <option value="3">Wednesday</option>
+            <option value="4">Thursday</option>
+            <option value="5">Friday</option>
+            <option value="6">Saturday</option>
+            <option value="7">Sunday</option>
+        </select>
+    </body>
+</html>

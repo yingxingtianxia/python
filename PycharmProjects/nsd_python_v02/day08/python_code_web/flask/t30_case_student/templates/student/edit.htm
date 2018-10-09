@@ -1,0 +1,39 @@
+<style>
+    input{
+        font-size: 16px;
+        color:red;
+    }
+
+    button{
+        width: 100px;
+        height: 30px;
+        font-size: 20px;
+
+    }
+
+</style>
+<body style="margin: 10px">
+{{ fs }}
+
+<h1>添加或者编辑用户</h1>
+<hr>
+<form class="form-horizontal" role="form" method="post" action="/save">
+    <input type="hidden" name="id" value="{{ fs[0] }}">
+    <div class="form-group">
+        <div class="col-sm-9">
+            姓名: <input type="text" name="xm" value="{{ fs[1] }}"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-9">
+            年龄: <input type="text" name="age" value="{{ fs[2] }}"/>
+        </div>
+    </div>
+    <div class="form-group">
+        <button onclick="javascript:submit()">
+            Save
+        </button>
+    </div>
+</form>
+
+</body>

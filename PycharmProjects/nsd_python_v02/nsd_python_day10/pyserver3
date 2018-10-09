@@ -1,0 +1,13 @@
+service pyserver3
+{
+    disable = no 
+    flags = NAMEINARGS
+    type = UNLISTED
+    socket_type = STREAM
+    port = 31245
+    protocol = tcp
+    wait = no
+    user = root
+    server = /home/mark/PycharmProjects/nsd_python_day10/d10_04.py
+    server_args = /home/mark/PycharmProjects/nsd_python_day10/d10_04.py
+}

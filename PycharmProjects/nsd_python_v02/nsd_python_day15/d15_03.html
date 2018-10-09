@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+        <script>
+            function myclick(num) {
+                if (num == 1) {
+                    $("#id1").html("Welcome to Beijing");
+                } else if (num == 2) {
+                    $("#id1").append("It's beautiful");
+                } else if (num == 3) {
+                    $("#id1").prepend("Oh my God,");
+                } else {
+                    $("#id1").html("<input type=text value='mark'>");
+                }
+            }
+        </script>
+
+        <style>
+            #id1{
+                width: 300px;
+                height: 100px;
+                border: 1px solid black;
+            }
+
+            input{
+                width: 60px;
+                height: 40px;
+                background-color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="id1">Hello World</div>
+
+        <input type="button" onclick="myclick(1)" value="change">
+        <input type="button" onclick="myclick(2)" value="append">
+        <input type="button" onclick="myclick(3)" value="prepend">
+        <input type="button" onclick="myclick(4)" value="button">
+    </body>
+</html>

@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script></script>
+</head>
+<body>
+<h1>编辑数据</h1><hr>
+    <div>
+        <form action="/data/update/edit">
+            请输入需要编辑的id号: <input type="text" name="id">
+            <input type="submit" value="提交">
+        </form>
+    </div>
+<hr>
+
+    <form action="/data/update/save">
+        <div><input type="hidden"  name="id" value="{{ fs[0] }}"></div>
+        <div>姓名：<input type="text" name="name" value="{{ fs[1] }}"></div>
+        <div>年龄：<input type="text" name="age" value="{{ fs[2] }}"></div>
+        <div><input type="submit" value="提交"></div>
+    </form>
+    <form action="/data/update/cancel">
+        <div><input type="submit" value="取消"></div>
+    </form>
+<hr>
+</body>
+</html>

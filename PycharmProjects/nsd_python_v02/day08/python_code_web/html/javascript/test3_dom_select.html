@@ -1,0 +1,41 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>dom对象-元素定位</title>
+</head>
+
+<script>
+
+
+    function changeSelect() {
+        document.all.week.options[4].selected = true;
+    }
+
+    function mychange() {
+        var s = document.all.week;
+        var i = s.selectedIndex;
+        alert("你选择了:" + s.options[i].text + ",值=" + s.options[i].value);
+    }
+
+
+</script>
+
+
+<body>
+
+<hr>
+<input type="button" value="changeSelect" onclick="changeSelect()"/>
+
+<select id="week" onchange="mychange()">
+    <option value="1">周一</option>
+    <option value="2" selected>周二</option>
+    <option value="3">周三</option>
+    <option value="4">周四</option>
+    <option value="5">周五</option>
+    <option value="6">周六</option>
+    <option value="7">周日</option>
+
+</select>
+</body>
+
+</html>

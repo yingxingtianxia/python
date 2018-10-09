@@ -1,0 +1,126 @@
+数据库
+关系型：mysql / sql server / oracle / db2
+非关系型NoSQL：redis / mongodb
+
+SQL:结构化查询语言
+
+关系型数据库中，非常重要的对象是表。
+
+员工编号、姓名、出生日期、性别、联系方式、部门、岗位、发工资日期、基本工资、奖金、工资总额
+
+员工表：员工编号、姓名、出生日期、性别、电话、email、qq、家庭住址、部门编号
+部门表：部门编号、部门名称
+工资表：auto_id、员工编号、发工资日期、基本工资、奖金
+
+学生表：学号、姓名、出生日期、性别、电话、班级
+课程表：课程编号、课程名称
+成绩表：学号、课程编号、分数
+
+mysql -> sun -> oracle
+mariadb
+
+安装mariadb
+[root@room8pc16 db1]# yum install -y mariadb-server
+起动服务　
+[root@room8pc16 db1]# systemctl start mariadb
+设置开机自起
+[root@room8pc16 db1]# systemctl enable mariadb
+默认用户名为root，密码为空
+修改root密码为tedu.cn
+[root@room8pc16 db1]# mysqladmin password tedu.cn
+登陆数据库
+[root@room8pc16 db1]# mysql -uroot -ptedu.cn
+
+查看有哪些数据库
+MariaDB [(none)]> show databases;
+创建名为tarena的数据库
+MariaDB [(none)]> create database tarena default charset utf8;
+切换到tarena
+MariaDB [(none)]> use tarena;
+查看当前库中有哪些表
+MariaDB [tarena]> show tables;
+创建部门表，主键是dep_id，dep_name不能为空，不能重复
+MariaDB [tarena]> CREATE TABLE departments (dep_id INT(4), dep_name VARCHAR(20) NOT NULL UNIQUE, PRIMARY KEY(dep_id));
+查看表结构
+MariaDB [tarena]> desc departments;
+删除表
+MariaDB [tarena]> DROP TABLE departments;
+创建员工表，与departments具有主外键关系
+MariaDB [tarena]> CREATE TABLE employees(emp_id INT(4), emp_name VARCHAR(20) NOT NULL, gender ENUM('male', 'female'), birth_date DATETIME, phone_number VARCHAR(11), email VARCHAR(50), dep_id INT(4), PRIMARY KEY(emp_id), FOREIGN KEY(dep_id) REFERENCES departments(dep_id));
+创建工资表
+MariaDB [tarena]> CREATE TABLE salary(auto_id INT(4) AUTO_INCREMENT, date DATETIME, emp_id INT(4), basic INT(4), award INT(4), PRIMARY KEY(auto_id), FOREIGN KEY(emp_id) REFERENCES employees(emp_id));
+查看创建表的语句
+MariaDB [tarena]> show create table salary;
+
+安装phpMyAdmin
+１、下载py3soft.tar.gz文件 ftp://172.40.50.116/py2018/software
+2、安装　
+[root@room8pc16 software]# tar xzf py3soft.tar.gz 
+[root@room8pc16 software]# cd pysoft/phpMyAdmin/
+[root@room8pc16 phpMyAdmin]# bash setup.sh 
+[root@room8pc16 phpMyAdmin]# systemctl restart httpd
+[root@room8pc16 phpMyAdmin]# sentenforce 0
+３、访问http://127.0.0.1/phpmyadmin
+
+数据操作（增删改查）
+插入一行数据
+MariaDB [tarena]> INSERT INTO departments VALUES(1, '人事部');
+指定插入的数据赋值给哪些字段
+MariaDB [tarena]> INSERT INTO salary (date, emp_id, basic, award) VALUES('2018-02-10', 1, 10000, 2000);
+按条件删除
+MariaDB [tarena]> DELETE FROM departments WHERE dep_id=3;
+修改字段的值
+MariaDB [tarena]> UPDATE departments SET dep_name='人力资源部' where dep_name='人事部';
+插入多行数据
+MariaDB [tarena]> INSERT INTO departments VALUES (5, '市场部'), (6, '销售部');
+
+查询部门表所有的内容，注意*不建议使用
+MariaDB [tarena]> SELECT * FROM departments;
+查询部门表，按dep_id排序
+MariaDB [tarena]> SELECT * FROM departments ORDER BY dep_id;
+MariaDB [tarena]> SELECT * FROM departments ORDER BY dep_id DESC;
+查询部门表，按dep_id排序，只显示前三行
+MariaDB [tarena]> SELECT * FROM departments ORDER BY dep_id LIMIT 3;
+查询部门表，按dep_id排序，只显示3-5行
+MariaDB [tarena]> SELECT * FROM departments ORDER BY dep_id LIMIT 2, 3;
+只查询员工的电话号码
+MariaDB [tarena]> SELECT emp_name, phone_number FROM employees;
+MariaDB [tarena]> SELECT emp_name AS 姓名, phone_number AS 电话号码 FROM employees;
+查询员工每月工资总额
+MariaDB [tarena]> SELECT date, emp_id, basic+award FROM salary;
+MariaDB [tarena]> SELECT date, emp_id, basic+award FROM salary where basic+award>10000;
+多表查询，员工名在员工表，工资在工资表
+MariaDB [tarena]> SELECT e.emp_name, s.date, s.basic+s.award AS money FROM employees as e JOIN salary as s ON e.emp_id=s.emp_id;
+查询一共有多少个部门
+MariaDB [tarena]> SELECT COUNT(*) FROM departments;
+
+
+pymysql模块
+1、加速pip
+[root@room8pc16 ~]# mkdir ~/.pip
+[root@room8pc16 ~]# gedit ~/.pip/pip.conf 
+[global]
+index-url = http://pypi.douban.com/simple/
+[install]  
+trusted-host=pypi.douban.com 
+
+2、安装
+[root@room8pc16 ~]# pip3 install --upgrade pip  升级pip
+[root@room8pc16 ~]# pip3 install pymysql
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+<html>
+<head><title>calculation test</title>
+</head>
+<script language=javascript><!--
+function whenclick(num) {
+    myform.sp.value = myform.sp.value + num;
+}
+
+function calculate() {
+    myform.sp.value = myform.sp.value + "=" + eval(myform.sp.value);
+}
+
+function clscreen() {
+    myform.sp.value = "";
+}
+
+function backdel() {
+    myform.sp.value = myform.sp.value.substring(1, myform.sp.value.length - 1)
+}
+
+--></script>
+<style>
+    input {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        color: blue;
+    }
+
+    .show {
+        width: 300px;
+        height: 60px;
+        background-color: black;
+        color: red;
+        font-weight: 500;
+        font-size: 34px;
+    }
+</style>
+
+<body>
+<form name=myform>
+    <input class="show" type=text name=sp value="">
+    <br>
+    <input type=button value="0" onclick="whenclick(0)">
+    <input type=button value="1" onclick="whenclick(1)">
+    <input type=button value="2" onclick="whenclick(2)">
+    <input type=button value="3" onclick="whenclick(3)">
+    <input type=button value="4" onclick="whenclick(4)"><br>
+
+    <input type=button value="5" onclick="whenclick(5)">
+    <input type=button value="6" onclick="whenclick(6)">
+    <input type=button value="7" onclick="whenclick(7)">
+    <input type=button value="8" onclick="whenclick(8)">
+    <input type=button value="9" onclick="whenclick(9)"><br>
+    <input type=button value="(" onclick="whenclick('(')">
+    <input type=button value=")" onclick="whenclick(')')">
+    <input type=button value="+" onclick="whenclick('+')">
+    <input type=button value="=" onclick="calculate();">
+    <input type=button value="del" onclick="backdel();">
+    <input type=button value="clr" onclick="clscreen();">
+
+</form>
+</body>
+</html>

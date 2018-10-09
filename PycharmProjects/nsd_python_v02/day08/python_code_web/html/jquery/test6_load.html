@@ -1,0 +1,54 @@
+<html>
+<meta charset="utf-8"/>
+<script type="text/javascript" src="../res/js/jquery-3.1.0.min.js"></script>
+
+<script type="text/javascript">
+    function myclick(mode) {
+        if (mode == 1) {
+            $("#id1").load("../basic/shoe_css.html");
+        }
+    }
+
+
+</script>
+<style>
+    #id1 {
+        width: 800px;
+        height: 300px;
+        border: 1px solid black;
+    }
+
+   #id2 {
+        width: 800px;
+        height: 300px;
+        border: 1px solid black;
+       overflow: hidden;
+    }
+
+    input {
+        width: 60px;
+        height: 40px;
+        background-color: #00b3ee;
+    }
+
+    .css1 {
+        color: green;
+    }
+
+    .css2 {
+        color: blue;
+        font-size: 26px;
+    }
+
+
+</style>
+
+
+<body>
+<input type="button" value="load" onclick="myclick(1)"/>
+<div id="id2">
+<div id="id1" class="css1">Hello World</div>
+</div>
+</body>
+
+</html>

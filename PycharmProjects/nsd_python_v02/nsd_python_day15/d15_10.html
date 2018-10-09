@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+        <script>
+            function myclick(num){
+                if (num == 1) {
+                    $("#id1").load('d15_01.html');
+                }
+            }
+        </script>
+
+        <style>
+            #id1 {
+                width: 800px;
+                height: 300px;
+                border: 1px solid black;
+            }
+            #id2 {
+                width: 800px;
+                height: 300px;
+                border: 1px solid black;
+                overflow: hidden;
+            }
+            input {
+                width: 60px;
+                height: 30px;
+                background-color: blue;
+            }
+            .css1 {
+                color: green;
+            }
+            .css2 {
+                color: red;
+                font-size: 25 px;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="button" value="load" onclick="myclick(1)">
+        <div id="id2">
+            <div id="id1" class="css1">Hello world</div>
+        </div>
+    </body>
+</html>

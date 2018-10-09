@@ -1,0 +1,32 @@
+张志刚
+python2.7
+python3.6
+
+连接桌面
+vncviewer &
+跳出的对话框中填入 172.40.50.116:6000。回车
+
+一、python3安装
+1、下载软件包
+ftp://172.40.50.116/py2018/software/py3soft.tar.gz
+2、下载的软件包，出现在下载目录中。在下载目录中，右击，选择“在终端中打开”
+3、解压缩
+[root@localhost ~]# tar xzf py3soft.tar.gz 
+4、进入解压后的目录
+[root@localhost ~]# cd pysoft/py3env/
+5、安装
+[root@localhost py3env]# bash setup.sh 
+
+二、运行python程序
+1、交互解释器，临时执行指令
+[root@room8pc16 day01]# python3
+>>> print('hello world!')
+2、明确指定用python3解释程序文件
+[root@room8pc16 day01]# python3 hello.py 
+3、为程序文件加执行权限
+[root@room8pc16 day01]# chmod +x hello.py 
+[root@room8pc16 day01]# ./hello.py 
+此种方式，注意hello.py的第一行，必须是以下内容
+#!/usr/local/bin/python3
+
+

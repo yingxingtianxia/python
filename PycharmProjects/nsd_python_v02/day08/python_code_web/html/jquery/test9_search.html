@@ -1,0 +1,73 @@
+<html>
+<meta charset="utf-8"/>
+<script type="text/javascript" src="../res/js/jquery-3.1.0.min.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+
+        $(".item").click(function () {
+            var id = $(this).attr("id");
+            $("#"+id).hide();
+            var t=$("#"+id).html();
+             $(".d1").append("<div class=item2 id=m"+id+">"+t+"</div>")
+            $("#m"+id).click(to2);
+        });
+
+        function to2(){
+            var id = $(this).attr("id");
+            $("#"+id).remove();
+            var id2=(""+id).substr(1);
+            $("#"+id2).show();
+        }
+
+    });
+
+    function add(a) {
+        alert($("this").text);
+        //$(".d1").append($(this).html);
+    }
+
+
+</script>
+<style>
+    .d1 {
+        width: 500px;
+        height: 100px;
+        border: 1px solid blue;
+        margin: 20px;
+    }
+
+    .d2 {
+        width: 500px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+
+    .item, .item2{
+        width: 60px;
+        height: 20px;
+        background-color: #00be67;
+        float: left;
+        margin: 10px;
+    }
+
+</style>
+
+
+<body>
+搜索<input type="text">
+<div class="d1"></div>
+<div class="d2">
+    <div class="item" id="a1">春季</div>
+    <div class="item" id="a2">夏季</div>
+    <div class="item" id="a3">秋季</div>
+    <div class="item" id="a4">冬季</div>
+
+
+</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=" utf-8">
+
+    <title>水平菜单-图片加文字</title>
+
+    <style type="text/css">
+        /*
+            目的:
+            1.一个菜单有一个图标和水平文字构成
+            2. 希望水平文字处于图片水平中线对齐(垂直居中)
+            3. 希望菜单在父容器(菜单条)中水平中线对齐(垂直居中)
+            方法:
+            为实现2)
+            1. 图标s1必须浮动,文字排其后
+            2. 多个菜单时,每个菜单项的图片与文字必须加一层子div包裹,并浮动
+            3. 子div的line-height要与菜单中图片高度相同,即放在m里.
+            为实现3)
+            1)在菜单条容器,即f里加:display:table-cell;vertical-align:middle;
+            2)在子div里即m里加:display:inline-block;
+
+        */
+        .f {
+            width: auto;
+            height: 100px;
+            font-size: 12px;
+            border: 1px solid red;
+            vertical-align:middle;
+            display:table-cell;
+        }
+
+        .s1 {
+            float: left;
+            width: 30px;
+            height: 30px;
+            border: 1px solid red;
+        }
+
+        .m {
+            float: left;
+            width: 100px;
+            height: 30px;
+            line-height: 30px;
+            display:inline-block;
+
+
+        }
+
+    </style>
+</head>
+<body>
+
+<div class="f">
+    <div class="m">
+        <div class="s1"></div>
+        你好,北京
+    </div>
+
+    <div class="m">
+        <div class="s1"></div>
+        你好,北京
+    </div>
+</div>
+
+</body>
+</html>

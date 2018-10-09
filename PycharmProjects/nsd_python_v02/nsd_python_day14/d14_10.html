@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function getname(){
+                var a = document.getElementById('xm');
+                alert(a.value);
+            }
+            function setname(){
+                var a = document.getElementById('xm');
+                a.value='hello world'
+            }
+
+        </script>
+    </head>
+
+    <body>
+        <input type="button" value="get" onclick="getname()">
+        <input type="button" value="change" onclick="setname()"> <br>
+        <input id="xm">
+    </body>
+</html>

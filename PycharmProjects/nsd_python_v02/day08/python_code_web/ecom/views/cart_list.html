@@ -1,0 +1,145 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>购物车列表-电子商城</title>
+
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script>
+        $(function () {
+            $(".item").click(
+                    function () {
+                        window.location.href = "/product/detail?id=" + $(this).attr("productid");
+                    }
+            );
+        });
+    </script>
+    <style>
+
+        body, * {
+            margin: 0px auto;
+            color: navy;
+        }
+
+        .list {
+            margin: 0 auto;
+            width: 500px;
+            #border: 1px solid red;
+            overflow: hidden;
+        }
+
+        .pic_head {
+            width: 500px;
+            height: 130px;
+        }
+
+        .row {
+            margin: 5px auto;
+            width: 500px;
+            #border: 1px solid red;
+            overflow: hidden;
+            line-height: 40px;
+        }
+
+        .t1, .t2, .t3, .t4, .t5 {
+            float: left;
+            #border: 1px solid black;
+            margin: 5px;
+            font-size: 10px;
+        }
+
+        .t1 {
+            width: 200px;
+            color: darkred;
+        }
+
+        .t2 {
+            width: 40px;
+            color: green;
+        }
+
+        .t3 {
+            width: 60px;
+            color: black;
+        }
+
+        .t4 {
+            width: 60px;
+            color: red;
+        }
+
+        .t5 {
+            width: 30px;
+            color: black;
+        }
+
+        .row img {
+            width: 40px;
+            float: left;
+        }
+
+        .account {
+            float: right;
+            width: 150px;
+            height: 30px;
+            background-color: black;
+            font-size: 25px;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            border: 1px dashed yellow;
+            margin: 0 auto;
+        }
+
+        .total {
+            float: right;
+            width: 200px;
+            height: 30px;
+            font-size: 25px;
+            color: red;
+            text-align: right;
+            line-height: 30px;
+            border: 1px dashed yellow;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<script>
+    $(function () {
+        $(".account").click(
+                function () {
+                    $.ajax({
+                        url: "/bill/add",
+                        success: function (data) {
+                            alert("支付成功,订单编号:" + data);
+                        }
+                    });
+                }
+        );
+    });
+</script>
+<body>
+{% include 'c_head.html' %}
+<div style="clear: both"></div>
+<div class="list"><img class="pic_head" src="/pics/head.jpg"></div>
+{%for row in rows %}
+<div class="row">
+    <img src="/pics/{{row['pic']}}">
+    <div class="t1"><a href="/product/detail?pid={{row['pid']}}">{{row['pname']}}</a></div>
+    <div class="t2">{{row['pcount']}}件</div>
+    <div class="t3">{{row['price']}}元/件</div>
+    <div class="t4">共{{row['total']}}元</div>
+    <div class="t5"><a href="/cart/del?pid={{row['pid']}}">删除</a></div>
+    <div style="clear: both"></div>
+</div>
+{% endfor %}
+<div class="row">
+    <div class="total">共计:{{total}}元</div>
+</div>
+<div class="row">
+    <div class="account">立即结算</div>
+</div>
+
+</body>
+
+
+</html>

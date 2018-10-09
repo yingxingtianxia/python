@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+        <script>
+            function myclick(num) {
+                if (num == 1) {
+                    $("#id1").css({"color": "red", "font-size": "50px"});
+                } else if (num == 2) {
+                    $("#id1").attr("class", "css2");
+                    $("#id1").removeAttr("style");
+                } else  {
+                    $("#id1").attr("class", "css1");
+                    $("#id1").removeAttr("style");
+                }
+            }
+        </script>
+        <style>
+            #id1 {
+                width: 200px;
+                height: 100px;
+                border: 1px solid black;
+            }
+            input {
+                width: 60px;
+                height: 30px;
+                background-color: yellow;
+            }
+            .css1 {
+                color: green;
+            }
+            .css2 {
+                color: blue;
+                font-size: 25px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="id1" class="css1">Hello World</div>
+
+        <input type="button" value="red" onclick="myclick(1)">
+        <input type="button" value="blue" onclick="myclick(2)">
+        <input type="button" value="green" onclick="myclick(3)">
+    </body>
+</html>

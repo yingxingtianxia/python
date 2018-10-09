@@ -1,0 +1,21 @@
+<style>
+    img{float:left;width:200px}
+    .mytitle{
+    font-size:30px;
+    }
+</style>
+
+<script>
+        function putbox(pid){
+            document.location.href= "/box_add?pid="+pid;
+        }
+
+</script>
+
+{% include 'header.html' %}
+<div>
+    <img src="/static/{{row[3]}}">
+    <span class="mytitle">{{row[1]}}</span><br>
+    <span class="des">{{row[2]}}</span><br>
+    <input id="putbox" type=button value="put into box" onclick="putbox({{row[0]}})">
+</div>

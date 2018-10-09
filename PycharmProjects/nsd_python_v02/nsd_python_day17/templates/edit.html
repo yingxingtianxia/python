@@ -1,0 +1,35 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        input {
+            font-size: 20px;
+            color: green;
+        }
+
+        button {
+            width: 100px;
+            height: 30px;
+            font-size: 20px;
+        }
+    </style>
+    <script></script>
+</head>
+<body style="margin: 10px">
+{{ fs }}
+<h1>add or edit one item</h1>
+<hr>
+<form action="/save">
+    <input type="hidden" name="id" value="{{ fs[0] }}">
+    <div>
+        name: <input type="text" name="name" value="{{ fs[1] }}">
+    </div>
+    <div>
+        age: <input type="text" name="age" value="{{ fs[2] }}">
+    </div>
+    <div>
+        <button onclick="javascript:submit()">Save</button>
+    </div>
+</form>
+</body>
+</html>

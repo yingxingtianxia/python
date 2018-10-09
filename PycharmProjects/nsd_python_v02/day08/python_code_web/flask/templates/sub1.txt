@@ -1,0 +1,4 @@
+this is sub1ss:{{title}}{{user.nickname}}{{items}}
+{% for item in items%}
+<li>{{ item }}</li>
+{% endfor %}

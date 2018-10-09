@@ -1,0 +1,15 @@
+.mytitle{
+    font-size: 30px;
+    color: red;
+    text-align: center;
+}
+.mytext{
+    font-size: 25px;
+    color: green;
+    text-align: center;
+}
+
+body{
+    margin:0 auto;
+    padding: 0;
+}

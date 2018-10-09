@@ -1,0 +1,26 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <script></script>
+</head>
+<body>
+    <style>
+        .t1{
+            color:red;
+            font-size:50px
+        }
+    </style>
+
+    <form action="/login/check">
+        name <input name="name" value="{{name}}"><br>
+        <span class="t1">
+            {{ msg['name'] }}
+        </span><br>
+        password <input type="password" name="password" value="{{password}}"><br>
+        <span class="t1">
+            {{ msg['password'] }}
+        </span><br>
+        <input type="submit" value="login">
+    </form>
+</body>
+</html>

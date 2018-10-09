@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=" utf-8">
+    <title>div与文字居中</title>
+
+    <style type="text/css">
+        /*
+        1.使用margin:0 auto居中
+        2.居中只对块元素有作用
+        3. 块元素必须给宽度
+        4. 对文字,或者span包裹的文字,居中不起作用
+        5. 对P包裹文字,其实是块元素,居中有效,等价div
+        6. 块内文字居中需要加text-align
+        */
+
+        .d1 {
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            border: 1px solid red;
+            text-align: center;
+        }
+
+        .p1 {
+            margin: 0 auto;
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="d1">你好</div>
+<p class="p1">北京</p>
+<span class="p1">欢迎</span>
+首都
+</body>
+</html>

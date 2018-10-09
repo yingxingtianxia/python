@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% block content %}
+    <form class="form-horizontal" method="post">
+        <div class="form-group">
+            <label class="col-sm-2 control-label">标题</label>
+            <div class="form-sm-10">
+                <input class="from-control" name="title" value="{{ post.title }}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">描述</label>
+            <div class="form-sm-10">
+                <input class="from-control" name="desc" value="{{ post.desc }}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">作者</label>
+            <div class="form-sm-10">
+                <input class="from-control" name="author" value="{{ post.author }}">
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-2 control-label">内容</label>
+            <div class="form-sm-10">
+                <textarea class="from-control" name="content" >
+                    {{ post.content }}
+                </textarea>
+            </div>
+        </div>
+
+
+        {% csrf_token %}
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">保存</button>
+                </div>
+            </div>
+    </form>
+{% endblock %}

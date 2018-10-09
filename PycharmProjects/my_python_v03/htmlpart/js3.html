@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>js03</title>
+    <style>
+        .label{
+            width: 50px;
+            font-size:25px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label>用户名</label><input type="text" name="name"><br>
+        <label>密码</label><input type="password" name="pass"><br>
+        <label>验证码</label><input type="text" id="code"><br>
+        <button onclick="getValue()">提交</button>
+    </form>
+    <script>
+        function getValue(){
+           var inputs = document.getElementsByTagName('input')
+           for(i=0;i<inputs.length;i++){
+            alert(inputs[i].value)
+           }
+        }
+    </script>
+</body>
+</html>

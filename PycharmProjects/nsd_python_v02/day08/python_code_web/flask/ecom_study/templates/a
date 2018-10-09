@@ -1,0 +1,13 @@
+CREATE TABLE `user` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `cname` varchar(100) NOT NULL DEFAULT '',
+  `cpwd` varchar(100) NOT NULL DEFAULT '',
+  `dtime` varchar(100) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`),
+  KEY `index_xm` (`cname`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+
+insert into user values('1','tom','123','abc')
+
+grant all privileges on *.* to happy@'%' identified by 'happy'
+flush privileges;

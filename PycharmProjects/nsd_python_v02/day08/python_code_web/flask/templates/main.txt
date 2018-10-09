@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>{{title}} - microblog</title>
+  </head>
+  <body>
+      <h1>Hello, {{user.nickname}}!</h1>
+      {% include 'sub1.txt' %}
+      <h1>world, {{user.nickname}}!</h1>
+      {% include 'sub2.txt' %}
+      
+  </body>
+</html>

@@ -1,0 +1,6 @@
+  localhost localhost.localdomain localhost4 localhost4.localdomain4
+   localhost localhost.localdomain localhost6 localhost6.localdomain6
+  server0  server server0.example.com  webapp0.example.com  www0.example.com
+ desktop0  desktop  desktop0.example.com  smtp0.example.com
+classroom  content  classroom.example.com  content.example.com
+ foundation0 foundation0.example.com rhgls.domain254.example.com

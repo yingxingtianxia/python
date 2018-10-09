@@ -1,0 +1,28 @@
+１、虚拟环境可以保证系统的整洁。创建虚拟环境后，可以把python程序包安装到虚拟环境中。虚拟环境就是一个目录，以后开发完成，可以把虚拟环境目录删除。
+将虚拟环境拷贝到其他系统上能够直接应用
+２、提供虚拟环境的软件有：
+virtualenv
+pycharm
+python3自带
+３、创建虚拟环境。创建myproject/django_env用于存储虚拟环境
+[root@room8pc16 db3]# mkdir myproject
+[root@room8pc16 db3]# python3.6 -m venv myproject/django_env
+[root@room8pc16 db3]# ls myproject/django_env
+４、激活虚拟环境
+[root@room8pc16 db3]# source myproject/django_env/bin/activate
+5、在虚拟环境下安装python包，django 1.11.6版本
+(django_env) [root@room8pc16 db3]# pip install django==1.11.6
+6、查看在虚拟环境中安装了哪些包
+(django_env) [root@room8pc16 db3]# pip freeze > myproject/pkg.txt
+(django_env) [root@room8pc16 db3]# cat myproject/pkg.txt
+7、在其他主机需要安装相同的软件包，则
+(new_env) [root@room8pc16 db3]# pip install $(cat /tmp/demo/pkg.txt)
+８、在myproject目录中创建django项目
+(django_env) [root@room8pc16 myproject]# cd myproject/
+(django_env) [root@room8pc16 myproject]# django-admin startproject mysite
+9、起动项目
+(django_env) [root@room8pc16 myproject]# cd mysite/
+(django_env) [root@room8pc16 myproject]# python manage.py runserver 9000
+访问http://127.0.0.1:9000
+10、退出虚拟环境
+(django_env) [root@room8pc16 mysite]# deactivate

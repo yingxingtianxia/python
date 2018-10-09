@@ -1,0 +1,38 @@
+<meta charset="UTF-8">
+<style>
+    div {
+        margin: 0 auto;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .h {
+        float:left;
+        color: green;
+        width: 150px;
+        border-bottom: 1px solid blue;
+        font-size: 20px;
+    }
+
+    .r {
+        float:left;
+        color: black;
+        width: 150px;
+        border-bottom: 1px solid grey;
+        font-size: 15px;
+    }
+
+</style>
+<div>
+{% for item in head %}
+<div class="h">{{ item }}</div>
+{% endfor %}
+</div>
+
+{% for row in rows %}
+<div style="clear: both">
+<div class="r">{{ row[0] }}</div>
+<div class="r">{{ row[1] }}</div>
+<div class="r">{{ row[2] }}</div>
+</div>
+{% endfor %}

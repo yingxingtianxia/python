@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>testpage</title>
+</head>
+<body>
+{{ a }}<br>
+{{ b }}
+<hr>
+
+{% for i in a %}
+<ul>
+    <li>{{ i }}</li>
+</ul>
+{% endfor %}
+<hr>
+{% for post in posts %}
+<ul>
+    <li>
+        {{ post }}
+    </li>
+</ul>
+{% endfor %}
+</body>
+</html>

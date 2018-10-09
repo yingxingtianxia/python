@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>
+            function doa(){
+                if(document.all.xm.value=='tom'){
+                }else{ alert("must tom"); }
+            }
+            function dob(){
+                document.all.age.value=5;
+            }
+        </script>
+    </head>
+
+    <body>
+        name<input id="xm" onblur="doa()"><br>
+        age <input id="age" onfocus="dob()">
+    </body>
+</html>

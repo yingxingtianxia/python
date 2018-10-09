@@ -1,0 +1,71 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        .d1{
+            width: 700px;
+            overflow: hidden;
+        }
+        .c1{
+            width: 298px;
+            height: 400px;
+            float: left;
+            border: 1px solid red;
+            text-align: center;
+        }
+        .c2{
+            width: 398px;
+            height: 400px;
+            float: left;
+            border: 1px solid red;
+            text-align: center;
+        }
+        .im{
+            width: 295px;
+            //height: 390px;
+        }
+        .e1{
+            font-size: 40px;
+            color: red;
+        }
+        .e2{
+            font-size: 25px;
+            color: black;
+        }
+        .e3{
+            font-size: 35px;
+            color: green;
+        }
+        .e4{
+            height: 150px;
+        }
+    </style>
+    <script type="text/javascript" src="/res/js/jquery-3.1.0.min.js"></script>
+    <script>
+        function addbox(id){
+            $.ajax(
+                {url: "/cart/add?pid=" + id + "&pcount=" + document.all.count.value,
+                success: function (data) {alert('添加成功！购物车共有商品：' + data +'件')}
+                }
+            );
+        }
+    </script>
+</head>
+<body>
+    <div class="d1">
+        <div class="c1">
+            <img src="/res/products/{{pros[0][3]}}.jpg" class="im">
+        </div>
+        <div class="c2">
+            <div class="e1">商品名称:{{pros[0][1]}}<br><hr></div>
+            <div class="e2">商品详情:<br>{{pros[0][2]}}<br><hr></div>
+            <div class="e3">商品价格:{{pros[0][4]}}元<br><hr></div>
+
+            <div class="e4"></div>
+            <div>购买数量:<input type="text" name="count" value="1"></div>
+            <input type="button" value="加入收藏夹">
+            <input type="button" value="加入购物车" onclick="addbox('{{pros[0][0]}}')">
+        </div>
+    </div>
+</body>
+</html>

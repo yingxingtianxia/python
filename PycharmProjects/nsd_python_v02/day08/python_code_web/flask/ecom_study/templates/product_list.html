@@ -1,0 +1,74 @@
+<style>
+    .bar{
+        width:600px;
+        margin:0 auto;
+        border: 1px solid red;
+    }
+    .bar img{
+     width:600px;
+    }
+
+    .trim{
+        width:600px;
+        overflow:hidden;
+        margin:0 auto;
+    }
+    .big{
+        width:800px;
+        #border: 1px solid black;
+    }
+    .item{
+        float:left;
+        width:130px;
+        height:150px;
+        margin-right:24px;
+        border: 1px solid green;
+        text-align:center;
+    }
+    .item img{
+        width:110px;
+    }
+
+
+</style>
+
+{% include 'header.html' %}
+
+<div class="bar">
+    <img src="/static/head.jpg">
+</div>
+<div class="trim">
+    <div class="big">
+        <div class="item" onclick="document.location.href='/product_detail/{{rows[0][0]}}'">
+            <img src="/static/{{rows[0][3]}}"><br>{{rows[0][1]}}
+        </div>
+        <div class="item" onclick="document.location.href='/product_detail/{{rows[1][0]}}'">
+            <img src="/static/{{rows[1][3]}}"><br>{{rows[1][1]}}
+        </div>
+        <div class="item" onclick="document.location.href='/product_detail/{{rows[2][0]}}'">
+            <img src="/static/{{rows[2][3]}}"><br>{{rows[2][1]}}
+        </div>
+        <div class="item" onclick="document.location.href='/product_detail/{{rows[3][0]}}'">
+            <img src="/static/{{rows[3][3]}}"><br>{{rows[3][1]}}
+        </div>
+
+        <div style="clear:both"></div>
+    </div>
+<div class="trim">
+    <div class="big">
+        <div class="item" onclick="document.location.href='/product_detail/{{rows[4][0]}}'">
+            <img src="/static/{{rows[4][3]}}"><br>{{rows[4][1]}}
+        </div>
+        <div class="item" onclick="document.location.href='/product_detail/{{rows[5][0]}}'">
+            <img src="/static/{{rows[5][3]}}"><br>{{rows[5][1]}}
+        </div>
+        <div class="item" onclick="document.location.href='/product_detail/{{rows[6][0]}}'">
+            <img src="/static/{{rows[6][3]}}"><br>{{rows[6][1]}}
+        </div>
+        <div class="item" onclick="document.location.href='/product_detail/{{rows[7][0]}}'">
+            <img src="/static/{{rows[7][3]}}"><br>{{rows[7][1]}}
+        </div>
+
+        <div style="clear:both"></div>
+    </div>
+</div>
