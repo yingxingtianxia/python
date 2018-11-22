@@ -8,4 +8,5 @@ header = {
     'Referer': 'http://www.baidu.com',
 }
 r = requests.get(url, headers=header)
-print(r.text)
+#print(r.text)
+print(r.json())

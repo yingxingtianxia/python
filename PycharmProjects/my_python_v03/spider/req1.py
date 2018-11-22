@@ -20,10 +20,13 @@ pyload = {
     'key3': 'value3',
 }
 r = requests.get('http://httpbin.org/get', params=pyload)
-obj = r.json()
-for key in obj.keys():
-    if key == 'args':
-        for key in obj['args'].keys():
-            print(key, obj['args'][key])
-    else:
-        continue
+print(type(r))
+print(r.text)
+print(r.json())
+# obj = r.json()
+# for key in obj.keys():
+#     if key == 'args':
+#         for key in obj['args'].keys():
+#             print(key, obj['args'][key])
+#     else:
+#         continue
