@@ -14,7 +14,7 @@ def ping(host):
         print('%s: up' % host)
 
 if __name__ == '__main__':
-    ips = ['192.168.32.%s' % i for i in range(1,255)]
+    ips = ['192.168.232.%s' % i for i in range(1,255)]
     for ip in ips:
         pid = os.fork()
         if not pid:

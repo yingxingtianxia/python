@@ -1,0 +1,22 @@
+if [ -e '/etc/passwd' ];then
+    command1
+else
+    command2
+fi
+
+
+<body>   </body>
+
+
+case $1 in
+
+
+esac
+
+
+
+
+for
+do
+
+done
