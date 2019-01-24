@@ -2,53 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c267b30f-7f68-4323-81ec-e6f537a111ab" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/liveshow/abnormal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/something/day8/abnormal1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/something/day8/abnormal2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/something/day9/fsql.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/bibaozhuangshiqi.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/c_dic.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/city.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/dockerinfo.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/eee.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/f_city.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/fff.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/filetosql.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/for1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/for2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/forkping.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/func1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/func2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/func3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/h_file.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/handlejson.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/hsql.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/if1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/if2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/if3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/nginx-1.12.2.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/p1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/p1.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/passwd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/ppp.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/py_cp.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/py_cp1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/qqq.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/spide.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/tar1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/tar2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/tar3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/tar_if.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/test.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/threadping.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/userinfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/weather.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/while1.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/while2.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/while3.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/while4.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/something/zidian.text" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/something/ffsql.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/something/ut.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/something/day9/.fsql.py.swp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/something/day9/fsql.py" afterPath="$PROJECT_DIR$/something/day9/fsql.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -132,7 +89,40 @@
     <favorites_list name="PycharmProjects" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="ut.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/something/ut.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48608136">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="e#23#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ffsql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/something/ffsql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fsql.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/something/day9/fsql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -151,8 +141,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/my_python_v03/base2/mul_insert/mul_t_insert.py" />
-        <option value="$PROJECT_DIR$/my_python_v03/htmlpart/1.html" />
         <option value="$PROJECT_DIR$/my_python_v03/htmlpart/table.html" />
         <option value="$PROJECT_DIR$/my_python_v03/htmlpart/css1.html" />
         <option value="$PROJECT_DIR$/my_python_v03/htmlpart/table1.html" />
@@ -202,6 +190,8 @@
         <option value="$PROJECT_DIR$/something/day8/abnormal1.py" />
         <option value="$PROJECT_DIR$/something/day8/abnormal2.py" />
         <option value="$PROJECT_DIR$/something/day9/fsql.py" />
+        <option value="$PROJECT_DIR$/something/ffsql.py" />
+        <option value="$PROJECT_DIR$/something/ut.py" />
       </list>
     </option>
   </component>
@@ -258,7 +248,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -285,9 +274,56 @@
               <option name="myItemId" value="PycharmProjects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="something" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="something" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="day9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PycharmProjects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="liveshow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,41 +358,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fsql">
-    <configuration default="false" name="func2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liveshow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liveshow/func2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="func3 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liveshow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="PycharmProjects" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liveshow/func3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.ut">
     <configuration default="false" name="abnormal1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -404,6 +406,40 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="PycharmProjects" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/something/day9/fsql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ffsql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/something" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/something/ffsql.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ut" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/something" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="PycharmProjects" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/something/ut.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -549,19 +585,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.fff" />
-      <item index="1" class="java.lang.String" itemvalue="Python.func2 (1)" />
-      <item index="2" class="java.lang.String" itemvalue="Python.func3 (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Python.abnormal1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.abnormal2" />
-      <item index="5" class="java.lang.String" itemvalue="Python.fsql" />
+      <item index="1" class="java.lang.String" itemvalue="Python.abnormal1" />
+      <item index="2" class="java.lang.String" itemvalue="Python.abnormal2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.fsql" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ffsql" />
+      <item index="5" class="java.lang.String" itemvalue="Python.ut" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fsql" />
-        <item index="1" class="java.lang.String" itemvalue="Python.abnormal2" />
-        <item index="2" class="java.lang.String" itemvalue="Python.abnormal1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.func3 (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Python.func2 (1)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.ut" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ffsql" />
+        <item index="2" class="java.lang.String" itemvalue="Python.fsql" />
+        <item index="3" class="java.lang.String" itemvalue="Python.abnormal2" />
+        <item index="4" class="java.lang.String" itemvalue="Python.abnormal1" />
       </list>
     </recent_temporary>
   </component>
@@ -594,23 +630,23 @@
     <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44922736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1296875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960423" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44922736" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -850,8 +886,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/something/day9/fsql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29336187">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/something/ffsql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/something/ut.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48608136">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#23#34#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

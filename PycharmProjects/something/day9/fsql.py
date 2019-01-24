@@ -24,6 +24,7 @@ table_create = 'create table password (\
                 description char(80),\
                 homedir char(25),\
                 shell char(20),\
+                ts timestamp default current_timestamp,\
                 index(username)\
                 );'
 table_show = 'show tables;'
