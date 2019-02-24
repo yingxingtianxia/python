@@ -1,0 +1,36 @@
+/*页面布局*/
+.container {
+    width: 1024px;
+    margin: 0 auto 0 auto;
+}
+
+.header {
+    height: 100px;
+    background-color: silver;
+}
+
+.main {
+    height: 400px;
+    background-color: #7F7867;
+}
+
+.footer {
+    text-align: center;
+    height: 80px;
+    background-color: #7A77C8;
+}
+
+
+/*标签属性*/
+a:link {
+    color: silver;
+    font-size: 25px;
+}
+a:visited {
+    color: purple;
+    font-size: 30px;
+}
+a:hover {
+    color: red;
+    font-size: 50px;
+}

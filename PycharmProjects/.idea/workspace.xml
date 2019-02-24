@@ -2,21 +2,48 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="60574532-6755-4572-b678-ecee3c77a202" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/liveshow/excel/1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day11/ipfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day11/p1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day15/h2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day15/h3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day15/h4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/root.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/ttscase.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/ex1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/ex2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/mycss.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/mypra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/mypra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/prac.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/prac.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycase/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mycase/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../myproject01/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/something/day10/.ex2.py.swp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/something/day10/ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/something/day10/ex1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_python_v04/day15/h4.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_python_v04/day15/h4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycase/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mycase/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mycase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mycase/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myproject01/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myproject01/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../myproject01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myproject01/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="PycharmProjects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,44 +76,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h1.html">
+        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-              <folding>
-                <element signature="e#543#549#0" expanded="true" />
-                <element signature="e#549#555#0" expanded="true" />
-                <element signature="e#555#561#0" expanded="true" />
-                <element signature="e#561#567#0" expanded="true" />
-                <element signature="e#567#573#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="112">
+              <caret line="4" column="72" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h2.html">
+        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+            <state relative-caret-position="112">
+              <caret line="4" selection-start-line="4" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h3.html">
+        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h3.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+            <state relative-caret-position="112">
+              <caret line="4" column="90" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h4.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="239">
+              <caret line="9" column="79" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="9" selection-end-column="79" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h4.html">
+        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            <state relative-caret-position="491">
+              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -98,9 +127,15 @@
       <list>
         <option value="Python Script" />
         <option value="Html5" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>row</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -127,20 +162,50 @@
         <option value="$PROJECT_DIR$/my_python_v04/day15/h2.html" />
         <option value="$PROJECT_DIR$/my_python_v04/day15/h3.html" />
         <option value="$PROJECT_DIR$/my_python_v04/day15/h4.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/h1.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/h2.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/ex2.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/mycss.css" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/ex1.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/page.css" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/h3.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/h4.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/page2.css" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/page3.css" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/h5.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/h6.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/h7.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/h8.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/page6.css" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/page5.css" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/page4.css" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/prac.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/prac.css" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/mypra.css" />
+        <option value="$PROJECT_DIR$/my_python_v04/day16/mypra.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day17/h1.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day17/h2.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day17/h3.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day17/h4.html" />
+        <option value="$PROJECT_DIR$/my_python_v04/day17/h5.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
     <option name="y" value="28" />
-    <option name="width" value="1280" />
-    <option name="height" value="706" />
+    <option name="width" value="1390" />
+    <option name="height" value="793" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -157,22 +222,22 @@
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
               <item name="my_python_v04" type="462c0819:PsiDirectoryNode" />
-              <item name="day15" type="462c0819:PsiDirectoryNode" />
+              <item name="day17" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myproject01" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.jsx" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -379,17 +444,23 @@
       <workItem from="1550389240465" duration="112000" />
       <workItem from="1550389392866" duration="4583000" />
       <workItem from="1550456461236" duration="8366000" />
+      <workItem from="1550547005232" duration="10622000" />
+      <workItem from="1550626736297" duration="2355000" />
+      <workItem from="1550629216529" duration="25006000" />
+      <workItem from="1550712631805" duration="2354000" />
+      <workItem from="1550715165477" duration="14392000" />
+      <workItem from="1550972876817" duration="3253000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21733000" />
+    <option name="totallyTimeSpent" value="79715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
+    <frame x="0" y="28" width="1916" height="793" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.08949625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1283566" />
       <window_info id="Structure" order="1" weight="0.24973205" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,7 +472,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="调试" order="11" weight="0.32962137" />
       <window_info anchor="bottom" id="Application Servers" order="12" />
@@ -553,9 +624,107 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/h1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/h2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/ex1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/ex2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/mycss.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="49" column="14" selection-start-line="49" selection-start-column="14" selection-end-line="49" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/h3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="28" column="16" selection-start-line="20" selection-start-column="13" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/h4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/page2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="40" column="11" selection-start-line="35" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/h5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="23" selection-start-line="23" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/page3.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="48" column="13" selection-start-line="43" selection-end-line="54" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="67" column="15" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="980">
+        <state relative-caret-position="560">
           <caret line="35" column="7" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
           <folding>
             <element signature="e#543#549#0" expanded="true" />
@@ -567,24 +736,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h2.html">
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/imgs/pic2.jpg" />
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/imgs/pic1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/page5.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="392">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h3.html">
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/h7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        <state relative-caret-position="392">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my_python_v04/day15/h4.html">
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/h6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        <state>
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/page4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="42" column="21" selection-start-line="42" selection-start-column="21" selection-end-line="42" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/h8.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/page6.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/prac.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2772">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/prac.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+          <folding>
+            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/mypra.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="87" column="18" selection-start-line="87" selection-start-column="18" selection-end-line="87" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day16/mypra.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="35" column="14" lean-forward="true" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="72" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="90" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="9" column="79" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="9" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
     </entry>

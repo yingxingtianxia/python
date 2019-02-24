@@ -3,10 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script></script>
+    <script>
+        function show() {
+            alert('你好阿～')
+        }
+    </script>
     <style></style>
 </head>
 <body>
+<form action="">
+    <select name="course" id="">
+        <option value="os">linux</option>
+        <option value="db">database</option>
+        <option value="py" selected="selected">python</option>
+    </select><br>
+    <textarea name='msg' cols="30" rows="10"></textarea><br>
+    <input type="submit" value="提交">
+</form>
+
+<hr>
+<form action="">
+    <label>
+        <input type="checkbox" name="course" value="os"> linux <br>
+    </label>
+
+    <input type="checkbox" name="course" value="py" id="pyth">
+    <label for="pyth"> python</label>
+</form>
+
+<hr>
+<form action="">
+    <input type="hidden" name="hd" value="hide">
+    上传文件：<input type="file"> <br>
+    <input type="submit" value="上传">
+</form>
+<hr>
+<form action="">
+    <input type="button" value="欢迎" onclick="show()">
+</form>
+<hr>
+<form action="">
+    username: <input type="text"> <br>
+    password: <input type="password"> <br>
+    <input type="submit">
+    <input type="reset">
+</form>
+<hr>
+<form action="">
+    你喜欢的课程是？<br>
+    <input type="radio" name="course" value="os"> linux <br>
+    <input type="radio" name="course" value="db"> database <br>
+    <input type="radio" name="course" value="py" checked> python <br>
+    <input type="submit" value="提交">
+</form>
+<hr>
+<form action="">
+    你喜欢的课程是？<br>
+    <input type="checkbox" name="lession1" value="os"> linux <br>
+    <input type="checkbox" name="lession2" value="db"> database <br>
+    <input type="checkbox" name="lession3" value="py" checked> python <br>
+    <input type="submit" value="提交">
+</form>
+<hr>
+<form action="">
+    username: <input type="text" name="xm" placeholder="用户名"><br>
+    password: <input type="password" placeholder="密码" name="pwd"><br>
+    <input type="submit" value="查询">
+</form>
+<hr>
 <form action="">
     username: <input type="text"  placeholder="用户名" value="zhangsan" maxlength="10"> <br>
     password: <input type="password" placeholder="密码"><br>
