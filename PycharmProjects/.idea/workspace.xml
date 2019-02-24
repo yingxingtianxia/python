@@ -1,50 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60574532-6755-4572-b678-ecee3c77a202" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/ttscase.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Django/ttscase/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/ex1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/ex2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/h8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/mycss.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/mypra.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/mypra.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/page6.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/prac.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day16/prac.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_python_v04/day17/h5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycase/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mycase/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myproject01/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../myproject01/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_python_v04/day15/h4.html" beforeDir="false" afterPath="$PROJECT_DIR$/my_python_v04/day15/h4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycase/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mycase/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mycase/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mycase/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject01/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myproject01/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myproject01/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../myproject01/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="60574532-6755-4572-b678-ecee3c77a202" name="默认更改列表" comment="" />
     <ignored path="PycharmProjects.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h3.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
-              <caret line="4" column="90" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="105" />
+              <caret line="4" column="90" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="105" />
             </state>
           </provider>
         </entry>
@@ -106,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h4.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
-              <caret line="9" column="79" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="9" selection-end-column="79" />
+              <caret line="9" column="79" selection-start-line="6" selection-start-column="5" selection-end-line="9" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -114,8 +71,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="484">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -449,18 +409,18 @@
       <workItem from="1550629216529" duration="25006000" />
       <workItem from="1550712631805" duration="2354000" />
       <workItem from="1550715165477" duration="14392000" />
-      <workItem from="1550972876817" duration="3253000" />
+      <workItem from="1550972876817" duration="4272000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79715000" />
+    <option name="totallyTimeSpent" value="80734000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1916" height="793" extended-state="6" />
+    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1283566" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12808146" />
       <window_info id="Structure" order="1" weight="0.24973205" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -830,21 +790,24 @@
     <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h3.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
-          <caret line="4" column="90" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="105" />
+          <caret line="4" column="90" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="105" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h4.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
-          <caret line="9" column="79" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="9" selection-end-column="79" />
+          <caret line="9" column="79" selection-start-line="6" selection-start-column="5" selection-end-line="9" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="484">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
