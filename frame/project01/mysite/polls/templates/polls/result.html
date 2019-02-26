@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    投票结果
+{%  endblock %}
+
+{% block content %}
+    <table border="1px solid black">
+        <tr>
+            <td colspan="2">
+                {{ question.question_text }}
+            </td>
+        </tr>
+
+        {% for c in question.choice_set.all %}
+            <tr>
+                <td>{{ c.choice_text }}</td>
+                <td>票数: {{ c.votes }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+    <a href="{% url 'index' %}">返回首页</a>
+{% endblock %}
