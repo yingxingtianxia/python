@@ -1,0 +1,15 @@
+此项目基于Python3+ansible+Django+mariadb
+迁移后执行以下操作步骤
+项目运行环境是djenv
+1. yum -y install mariadb mariadb-server mariadb-devel
+2. systemctl start mariadb
+3. systemctl enable mariadb
+4. mysql -hlocalhost -uroot
+5. set password=password('123456')
+6. create database myansi default character set utf8;
+7. exit
+8. source .djenv/bin/activate
+9. cd .myansible
+10. python manage.py makemigrations
+11. python manage.py migrate
+12. python manage.py runserver 0:80

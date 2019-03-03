@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60574532-6755-4572-b678-ecee3c77a202" name="默认更改列表" comment="" />
+    <list default="true" id="60574532-6755-4572-b678-ecee3c77a202" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/liveshow/rio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame/project02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../frame/project02/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame/project02/myansible/myansible/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../frame/project02/myansible/myansible/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame/project02/myansible/webansi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../frame/project02/myansible/webansi/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frame/project02/myansible/webansi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../frame/project02/myansible/webansi/views.py" afterDir="false" />
+    </list>
     <ignored path="PycharmProjects.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -9,6 +16,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/PycharmProjects$rio.coverage" NAME="rio Coverage Results" MODIFIED="1551234816276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/liveshow" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -32,50 +42,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="72" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="72" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h2.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" selection-start-line="4" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="90" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="105" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h4.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="9" column="79" selection-start-line="6" selection-start-column="5" selection-end-line="9" selection-end-column="79" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h5.html">
+        <entry file="file://$PROJECT_DIR$/liveshow/rio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="168">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#23#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/something/day9/filetosql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="55" column="9" selection-start-line="55" selection-end-line="57" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -85,10 +68,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Html5" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -148,6 +131,7 @@
         <option value="$PROJECT_DIR$/my_python_v04/day17/h3.html" />
         <option value="$PROJECT_DIR$/my_python_v04/day17/h4.html" />
         <option value="$PROJECT_DIR$/my_python_v04/day17/h5.html" />
+        <option value="$PROJECT_DIR$/liveshow/rio.py" />
       </list>
     </option>
   </component>
@@ -165,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,25 +159,31 @@
             <path>
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="my_python_v04" type="462c0819:PsiDirectoryNode" />
+              <item name="liveshow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
               <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
-              <item name="my_python_v04" type="462c0819:PsiDirectoryNode" />
-              <item name="day17" type="462c0819:PsiDirectoryNode" />
+              <item name="something" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PycharmProjects" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="something" type="462c0819:PsiDirectoryNode" />
+              <item name="day9" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="FullScreen" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myproject01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -211,7 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.a2 (1)">
+  <component name="RunManager" selected="Python.rio">
     <configuration default="true" type="tests" factoryName="Attests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -297,7 +286,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="z2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="rio" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -305,12 +294,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/my_python_v04/day12" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/liveshow" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/my_python_v04/day12/z2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/liveshow/rio.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,16 +334,16 @@
       <item itemvalue="Python.a1" />
       <item itemvalue="Python.a2 (1)" />
       <item itemvalue="Python.a2" />
-      <item itemvalue="Python.z2" />
       <item itemvalue="Python.z7" />
+      <item itemvalue="Python.rio" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.rio" />
         <item itemvalue="Python.a2 (1)" />
         <item itemvalue="Python.a2" />
         <item itemvalue="Python.a1" />
         <item itemvalue="Python.z7" />
-        <item itemvalue="Python.z2" />
       </list>
     </recent_temporary>
   </component>
@@ -410,22 +399,23 @@
       <workItem from="1550712631805" duration="2354000" />
       <workItem from="1550715165477" duration="14392000" />
       <workItem from="1550972876817" duration="4272000" />
+      <workItem from="1551233034751" duration="2387000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80734000" />
+    <option name="totallyTimeSpent" value="83121000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
+    <frame x="0" y="28" width="1916" height="793" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12808146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12943073" />
       <window_info id="Structure" order="1" weight="0.24973205" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31946507" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -796,7 +786,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my_python_v04/day17/h4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
+        <state relative-caret-position="252">
           <caret line="9" column="79" selection-start-line="6" selection-start-column="5" selection-end-line="9" selection-end-column="79" />
         </state>
       </provider>
@@ -807,6 +797,23 @@
           <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/something/day9/filetosql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="55" column="9" selection-start-line="55" selection-end-line="57" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/liveshow/rio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="e#23#37#0" expanded="true" />
           </folding>
         </state>
       </provider>

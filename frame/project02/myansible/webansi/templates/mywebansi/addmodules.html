@@ -1,0 +1,66 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+
+{% block title %}
+    添加/删除 模块
+{% endblock %}
+
+{% block content %}
+{#    {{ mods }}#}
+    <div class="text-center" style="margin: 20px 0;">
+        <form action="" role="form" method="post" class="form-inline">
+            <div class="form-group">
+                <label>模块：<input type="text" name="mod_name" class="form-control"></label>
+            </div>
+            <div class="form-group">
+                <label>参数：<input type="text" name="arg" class="form-control"></label>
+            </div>
+            <input type="submit" value="添加模块" class="btn-primary">
+        </form>
+    </div>
+    <hr>
+    <div class="text-center" style="margin: 20px 0;">
+        <form action="" role="form" method="post" class="form-inline">
+            <div class="form-group">
+                <label>模块：<input type="text" name="delmod" class="form-control"></label>
+            </div>
+            <input type="submit" value="删除模块" class="btn-warning">
+        </form>
+    </div>
+    <hr>
+    <div class="text-center" style="margin: 20px 0;">
+        <form action="" role="form" method="post" class="form-inline">
+            <div class="form-group">
+                <label>参数：<input type="text" name="delarg" class="form-control"></label>
+            </div>
+            <input type="submit" value="删除参数" class="btn-warning">
+        </form>
+    </div>
+    <hr>
+    <table class="table table-bordered table-striped table-hover">
+        <tr class="info">
+            <th class="text-center col-md-4">模块</th>
+            <th class="text-center col-md-8">参数</th>
+        </tr>
+        <tr>
+            {% for mod in mods %}
+                <tr>
+                    <td class="text-center">
+                        {{ mod.mod_name }}
+                        <a href="{% url 'rmmod'  mod_id=mod.id %}">删除</a>
+                    </td>
+                    <td class="text-center">
+                        <ul class="list-unstyled">
+                            {% for arg in mod.modulearg_set.all %}
+                                <li>
+                                    {{ arg.arg_text }}
+                                    <a href="{% url 'rmarg' arg_id=arg.id %}">删除</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tr>
+    </table>
+{% endblock %}
