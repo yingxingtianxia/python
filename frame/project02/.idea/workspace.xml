@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c477e911-19db-4ed2-aba9-29f0def99a01" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/../../PycharmProjects/liveshow/rio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myansible/ansicfg/dhosts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myansible/webansi/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myansible/webansi/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myansible/webansi/templates/mywebansi/addhosts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myansible/webansi/templates/mywebansi/addmodules.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/myansible/webansi/templates/mywebansi/tasks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../PycharmProjects/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../PycharmProjects/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myansible/myansible/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myansible/myansible/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myansible/myansible/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myansible/myansible/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myansible/webansi/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/myansible/webansi/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myansible/webansi/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/myansible/webansi/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myansible/webansi/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/myansible/webansi/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myansible/webansi/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/myansible/webansi/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="c477e911-19db-4ed2-aba9-29f0def99a01" name="默认更改列表" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+            <state relative-caret-position="252">
+              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -296,16 +278,15 @@
       <workItem from="1551592217109" duration="346000" />
       <workItem from="1551592708383" duration="54000" />
       <workItem from="1551592796017" duration="52000" />
-      <workItem from="1551592974626" duration="7567000" />
+      <workItem from="1551592974626" duration="7623000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50253000" />
+    <option name="totallyTimeSpent" value="50309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="28" width="1920" height="1018" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14201501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -457,8 +438,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="252">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
