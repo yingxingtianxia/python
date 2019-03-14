@@ -1,0 +1,55 @@
+/*页面布局*/
+.container {
+    border: 1px solid silver;
+    width: 900px;
+    margin: 0 auto 0 auto;
+}
+
+.header {
+    border: 1px solid red;
+    height: 80px;
+}
+
+.content {
+    border: 1px solid blue;
+    height: 400px;
+}
+.left {
+    border: 1px solid greenyellow;
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+.middle {
+    border: 1px solid lawngreen;
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+.right {
+    border: 1px solid yellow;
+    width: 300px;
+    height: 400px;
+    margin-left: 600px;
+}
+
+.footer {
+    border: 1px solid red;
+    height: 50px;
+    text-align: center;
+}
+
+
+/*标签属性*/
+a:link {
+    font-size: 25px;
+    color: seashell;
+}
+a:visited {
+    font-size: 20px;
+    color: grey;
+}
+a:hover {
+    font-size: 40px;
+    color: greenyellow;
+}

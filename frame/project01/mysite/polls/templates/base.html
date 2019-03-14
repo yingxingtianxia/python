@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=divece-width, initial-scale=1 maximun-scale=1 user-scalable=no">
+    <title>{% block title %}{% endblock %}</title>
+    <style></style>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css">
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</head>
+<body>
+<div class="container h3">
+    <div class="row">
+        <div class="col-md-12">{% block content %}{% endblock %}</div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 text-center text-primary"><a href="http://www.tmooc.cn" target="_blank">大内科技</a></div>
+    </div>
+</div>
+</body>
+</html>
