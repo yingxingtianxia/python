@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 import sys
 import pygame
-from .settings import Settings
+from alien_invasion.settings import Settings
 
 #初始化游戏并创建一个屏幕对象
 def run_game():
     pygame.init()
 
     ai_settings = Settings()
-    screen = pygame.display.set_mode(
+    screen = pygame.display.set_mode((
         ai_settings.screen_width,
         ai_settings.screen_height
-    )
+    ))
     pygame.display.set_caption("外星人入侵")
 
 
