@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'learning_logs',
+    'users',
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
@@ -120,3 +122,9 @@ USE_TZ = False
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
 STATIC_URL = '/static/'
+LOGIN_URL = '/users/login/'
+
+#bootstrap3设置
+BOOTSTRAP3 = {
+    'include_jquary': True,
+}

@@ -1,10 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% load bootstrap3 %}
+{% block title %}详细信息{% endblock %}
 
-</body>
-</html>
+{% block header %}
+    <h2>
+        {{ topic }}
+    </h2>
+{% endblock %}
+
+{% block content %}
+    <p>
+        <a href="{% url 'learning_logs:new_entry' topic.id %}">添加记录</a>
+    </p>
+
+    {% for entry in entries %}
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3>
+                    {{ entry.date_added|date:'M d, Y H:i' }}
+                    <small>
+                        <a href="{% url 'learning_logs:edit_entry' entry.id %}">编辑记录</a>
+                    </small>
+                </h3>
+            </div>
+        </div>
+        <div class="panel-body">
+            {{ entry.text|linebreaks }}
+        </div>
+    {% empty %}
+        目前还没有关于这个主题的任何学习记录
+    {% endfor %}
+{% endblock %}
