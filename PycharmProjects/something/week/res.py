@@ -225,7 +225,10 @@ if __name__ == '__main__':
                 for res in results:
                     qun_name = res[2]
                     qun_mems = res[0]
-                    qun_lv = float(res[1])
+                    try:
+                        qun_lv = float(res[1])
+                    except ValueError:
+                        continue
                     lvs += qun_lv
                     #打印单群计算结果
                     print("\033[31m[%s]\033[0m群有\033[31m[%s]\033[0m名活跃成员，该群的达到率是\033[32m[%.2f%%]\033[0m" % (qun_name,qun_mems,qun_lv*100))
