@@ -1,0 +1,12 @@
+#编写这些程序的顺序
+01.version.py                   #获取版本信息
+02.get_auth.py                  #获取登陆令牌
+03.create_host_group.py         #创建主机群组
+04.get_group.py                 #获取所有群组信息
+05.get_template.py              #获取所有模板信息
+06.create_host.py               #添加被监控主机（zabbix_agentd)
+07.get_one_hosts                #获取某个组内的所有被监控的主机
+08.get_all_hosts                #获取当前所有组内被监控的主机
+09.get_host_info.py             #获取某个被监控主机的信息(用主机名)
+10.get_hosts_info.py            #获取多个被监控主机的信息（用主机名列表）
+11.create_template.py           #创建模板
