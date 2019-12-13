@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+
+<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+
+<style>
+
+    .css1{
+
+    width:400px;
+    height:200px;
+    background-color:#F00;
+
+
+    }
+
+</style>
+
+<script>
+    function myfun(mode){
+        if(mode==1){
+            $("div").html("hi");
+        }else if(mode==2){
+            $("div").append(",How are you?");
+        }else{
+            $("div").prepend("she says:");
+        }
+    }
+
+
+</script>
+
+
+<div  class="css1">
+    How are you?
+</div>
+
+
+<input type="button" value="change" onclick="myfun(1)">
+<input type="button" value="append" onclick="myfun(2)">
+<input type="button" value="prepend" onclick="myfun(3)">

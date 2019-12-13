@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+<form>
+    <label>用户名</label><input name="name" onblur="checkname()" type="text">
+    <label>密码</label><input name="password" type="password">
+    <label>验证码</label><input id="code" type="text">
+    <button onsubmit="checkForm()" type="submit">button</button>
+</form>
+<script>
+    function checkname(){
+        var n = document.getElementsByName('name')[0].value;
+        if (n.length < 4){
+            alert('用户名长度不能小于4位');
+        }
+    }
+    function checkForm(){
+        checkname();
+        return false;
+    }
+    function getValue(){
+        var inputs = document.getElementsByTagName('input');
+        for(i=0;i<inputs.length;i++){
+            inputs[i].value = i;
+        }
+    }
+
+</script>
+</body>
+</html>

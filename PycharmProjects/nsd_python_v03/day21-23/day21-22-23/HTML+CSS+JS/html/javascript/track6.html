@@ -1,0 +1,46 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+    var ball;
+    var mouseX = 100;
+    var mouseY = 100;
+    var angle = 0;
+    var radius = 0;
+
+    function draw() {
+        ball = document.createElement("span");
+        ball.style.position = "absolute";
+        ball.style.color = "#FF0000";
+        ball.style.zIndex = 999999999;
+        ball.innerHTML = "O";
+        document.body.appendChild(ball);
+
+        ball.style["left"] = mouseX + "px";
+        ball.style["top"] = mouseY + "px";
+    }
+    function MousePos(e) {
+        e = e || window.event;
+        var x, y;
+        if (!document.all) {
+            x = e.pageX;
+            y = e.pageY;
+        }
+        else {
+            x = event.clientX + document.documentElement.scrollLeft;
+            y = event.clientY + document.documentElement.scrollTop;
+        }
+        return {x: x, y: y};
+    }
+    function setXY(e) {
+        e = e || window.event;
+        var pos = MousePos(e);
+        mouseX = pos.x;
+        mouseY = pos.y;
+        draw();
+    }
+    window.onload = function () {
+        document.documentElement.onmousemove = function (e) {
+            e = e || window.event;
+            setXY(e);
+        };
+    }
+</script>

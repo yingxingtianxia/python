@@ -1,0 +1,17 @@
+<img id=product
+     src="res/pic2/a00001.jpg"
+     width="100px"
+     onmouseover="my(0)"
+     onmouseout="my(1)">
+
+<script>
+    var old='';
+    function my(flag){
+        if(flag==0){
+            old=document.all.product.src;
+            document.all.product.src='res/pic2/a00003.jpg';
+        }else{
+            document.all.product.src=old;
+        }
+    }
+</script>

@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-cn">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=GBK">
+    <title>Python 学习班在线测试工具</title>
+</head>
+
+<script type="text/javascript">
+    function show() {
+        var t = document.getElementById("TestCode").value;
+
+        var iObj = document.getElementById("show").contentWindow;
+        iObj.document.designMode = "On";
+        iObj.document.contentEditable = true;
+        iObj.document.open();
+//        iObj.document.innerHtml=t+"aa";
+        iObj.document.writeln(t);
+        iObj.document.close();
+
+    }
+</script>
+
+<style type="text/css">
+    body, * {
+        margin: 0 auto;
+        padding: 0;
+
+    }
+
+    #bn {
+        width: 100px;
+        height: 40px;
+        margin: 5px;
+    }
+
+    #TestCode {
+        width: 50%;
+        height: 500px;
+        float: left;
+        border: 0;
+        background-color: gainsboro;
+    }
+
+    #show {
+        width: 50%;
+        height: 500px;
+        overflow: auto;
+        float: left;
+    }
+
+    #title {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 30px;
+        color: #c43a30;
+        TEXT-ALIGN: center;
+    }
+
+</style>
+
+
+<body>
+<div id="title">Python Web 学习测试工具</div>
+
+
+<input id="bn" type="button" value="测试显示效果" onclick="show();"/>
+<div>
+    <textarea id="TestCode" wrap="logical"></textarea>
+    <iframe id="show" frameborder="0"></iframe>
+</div>
+
+</body>
+</html>

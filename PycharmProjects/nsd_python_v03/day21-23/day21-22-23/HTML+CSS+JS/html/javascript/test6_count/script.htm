@@ -1,0 +1,28 @@
+<script language="javascript">
+    var i = 0;
+    var f = 0;
+    var k = 100;
+    function gotick() {
+        i++;
+        if (i == 10) {
+            i = 0;
+            f++;
+            if (f == 10) f = 0;
+            min.src = f + ".jpg";
+        }
+        second.src = i + ".jpg";
+        k = k + 100;
+        document.bgColor = "#" + k;
+
+        setTimeout(gotick, 1000);
+
+    }
+
+
+</script>
+
+<body onload="gotick();">
+<img name="min" src="0.jpg" onmouseover="change(1);" onmouseout="change(2);" onmousedown="change(3);"
+     onmouseup="change(4);" WIDTH="58" HEIGHT="76">
+<img name="second" src="1.jpg" onclick="chgpic();" WIDTH="51" HEIGHT="75">
+</body>

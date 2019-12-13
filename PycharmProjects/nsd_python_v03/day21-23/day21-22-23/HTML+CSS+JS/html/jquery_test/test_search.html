@@ -1,0 +1,67 @@
+
+<meta charset="utf-8">
+<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+
+<style>
+    .mydiv1{
+        width: 500px;
+        height: 100px;
+        border: 1px solid blue;
+        margin: 20px;
+    }
+
+    .mydiv2 {
+        width: 500px;
+        height: 100px;
+        border: 1px solid black;
+        margin: 20px;
+    }
+    .item{
+        width:70px;
+        height: 30px;
+        background-color: #0F0;
+        margin:10px;
+    }
+
+</style>
+
+<script>
+    $(document).ready(function(){
+        $(".item").click(function(){
+           var id=$(this).attr("id");
+           var val=$(this).html();
+            $(this).hide();
+            $("#div1").append("<span id=s"+id+" class=item >"+val+"</span>");
+            $("#s"+id).click(myshow);
+
+        });
+
+         function myshow(){
+            var id = $(this).attr("id");
+            $("#"+id).remove();
+
+            var id2=id.substr(1);
+            $("#"+id2).show();
+        }
+
+    });
+</script>
+
+
+
+搜索:<input  type="text" value="" />
+
+<div id="div1" class="mydiv1"></div>
+
+
+
+<div class="mydiv2">
+    <span class="item" id="a1">春季</span>
+    <span class="item" id="a2">夏季</span>
+    <span class="item" id="a3">秋季</span>
+    <span class="item" id="a4">冬季</span>
+
+
+</div>
+
+

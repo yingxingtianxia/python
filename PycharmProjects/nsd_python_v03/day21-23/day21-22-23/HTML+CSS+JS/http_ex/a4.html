@@ -1,0 +1,33 @@
+<form id=fm action="/moon" method="get">
+name<input name="cname" id="cname"><span id="msg"></span><br>
+password<input type=password name="pwd">
+<br>
+    <textarea name="resume" cols="50" rows="15"></textarea>
+<br>
+
+<div style="border:1px solid red;width:100px" onclick="ck()">login</div>
+
+    <input type="submit" value="log">
+</form>
+
+<script>
+    function ck(){
+        if(document.all.cname.value.trim()==""){
+            alert('aa');
+            document.all.msg.innerHTML='cannot Empty!';
+            return;
+        }
+        document.all.fm.submit();
+
+    }
+
+     function ck(){
+        document.location.href='/moon?cname=alice&age=12';
+    }
+
+
+    function mylink(){
+        document.location.href='http://www.sohu.com';
+        return false;
+    }
+</script>

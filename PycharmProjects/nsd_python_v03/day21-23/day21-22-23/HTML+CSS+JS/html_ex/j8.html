@@ -1,0 +1,16 @@
+<select id=answer onchange="myc()">
+    <option>A</option>
+    <option>B</option>
+    <option>C</option>
+    <option value="d1">D</option>
+    <option>E</option>
+</select>
+
+<script>
+    function myc(){
+        a=document.all.answer;
+        index=a.selectedIndex;
+        s=a.options[index].value
+        alert(s);
+    }
+</script>

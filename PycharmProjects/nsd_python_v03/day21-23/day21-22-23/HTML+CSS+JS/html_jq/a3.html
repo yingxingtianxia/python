@@ -1,0 +1,29 @@
+<script src="js/jquery.js"></script>
+
+<script>
+    function ck(){
+
+        //$('span').css('color','red');
+        //$('span').css({'color':'red','font-size':'100px'});
+        //$('span').css('color','red');
+        //$('span').attr('class','c1 c2');
+        $('span').removeClass('c1');
+        $('span').addClass('c2');
+
+    }
+
+
+</script>
+
+<style>
+    .c1{
+        font-size:50px;
+        color:green;
+    }
+    .c2{
+        color:blue;
+    }
+</style>
+<span class="c1">hello world</span>
+
+<input type="button" value="go" onclick="ck()">

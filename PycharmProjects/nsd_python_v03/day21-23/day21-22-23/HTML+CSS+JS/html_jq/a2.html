@@ -1,0 +1,33 @@
+<script src="js/jquery.js"></script>
+
+<script>
+    function ck(mode){
+        if(mode==1){
+          $('div').html('world');
+        }else if(mode==2){
+            $('div').append(''+Math.random());
+        }else if(mode==3){
+            $('div').prepend(''+Math.random());
+        }else if(mode==4){
+             $('div').html('<input type=radio>man');
+        }
+    }
+
+
+</script>
+
+<style>
+    div{
+        border:1px solid blue;
+        width:300px;
+        height:100px;
+        font-size:30px;
+    }
+</style>
+
+<div>hello</div>
+
+<input type="button" value="go1" onclick="ck(1)">
+<input type="button" value="go2" onclick="ck(2)">
+<input type="button" value="go3" onclick="ck(3)">
+<input type="button" value="go4" onclick="ck(4)">

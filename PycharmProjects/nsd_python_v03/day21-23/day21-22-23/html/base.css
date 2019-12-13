@@ -1,0 +1,24 @@
+ .mytitle{
+            font-size:30px;
+            color:blue;
+            width:100px;
+            overflow:hidden;
+            padding-left:4px;
+        }
+ #div1 {
+    border:1px dotted blue;
+    margin:0 auto;
+ }
+div{background-color: green;}
+
+span,div{font-size:26px}
+
+ul{
+    list-style-type:none;
+}
+ul>li{
+    font-size:36px;
+}
+ul span{
+    color:red;
+}

@@ -1,0 +1,24 @@
+name<input id=xm1 name="xm">
+name<input id=xm2 name="xm">
+<br>
+<input type="radio" name="cities"> beijing
+<input type="radio" name="cities"> nanjing
+<input type="radio" name="cities"> jinan
+<input type="radio" name="cities"> chengdu
+
+<input type="button" value="go" onclick="setcity()">
+
+<script>
+    function getinfo(){
+        xm1_v=document.all.xm1.value;
+        xm2=document.all.xm2;
+        xm2.value=xm1_v+' world'
+
+    }
+       function setcity(){
+        jn=document.getElementsByName('cities')[2]
+        jn.checked=true;
+
+    }
+
+</script>

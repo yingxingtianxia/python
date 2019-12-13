@@ -1,0 +1,27 @@
+<meta charset="utf-8">
+
+<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+<style>
+    .div1{
+        width:200px;
+        height:200px;
+        background-color:red;
+    }
+
+</style>
+
+<script>
+    function changeColor(){
+      // $("div").css("background-color","green");
+      // $("#div1").css("background-color","green");
+      //$(".div1").css("background-color","green");
+      $(".div1").css({"width":"500px","height":"400px","background-color":"#0F0"});
+    }
+
+</script>
+<div id="div1" class="div1" >
+aaaa
+</div>
+
+
+<input type="button" value="change" onclick="changeColor()">

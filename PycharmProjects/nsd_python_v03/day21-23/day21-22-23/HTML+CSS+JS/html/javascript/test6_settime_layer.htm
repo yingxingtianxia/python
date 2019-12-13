@@ -1,0 +1,80 @@
+<meta charset="UTF-8">
+<script>
+    var aflag = 0;
+    var bflag = 0;
+    var leftoff = 10
+            ;
+    var topoff = 10;
+    function move() {
+        lay = document.all.sp;//sp为div的id值，任何id是唯一的
+
+        //得到层的左上角的位置
+        atop = parseInt(lay.style.top);//lay.style.top的值为字符串：如：30px,所以类型要强行转换为数字30
+        aleft = parseInt(lay.style.left);
+
+        //修正层的左上角的位置
+        if (aleft > 400 && aflag == 0) {
+            leftoff = -10;
+            aflag = 1;
+        }
+        else if (aleft < 10 && aflag == 1) {
+            leftoff = 10;
+            aflag = 0;
+        }
+
+        if (atop > 300 && bflag == 0) {
+            topoff = -10;
+            bflag = 1;
+        }
+        else if (atop < 10 && bflag == 1) {
+            topoff = 10;
+            bflag = 0;
+        }
+
+        lay.style.top = atop + topoff;
+        //alert(lay.style.top);
+        lay.style.left = aleft + leftoff;
+
+        //180代表着180毫秒，程序运行到此时，告诉ie在180毫秒后，调用setTimeout("move()",180)里引号中的javascript语句
+        //即引号中可以是函数，也可以是任何合法的javascript语句，用法同onclick后面的写法一样
+        setTimeout("move()", 180);
+    }
+
+</script>
+<body onload="move()">
+div中若不用absolute修饰，层会按顺序排放，否则，div可以放在body标签以下的任何位置
+<div id="sp" style="position: absolute; left: 100; top: 50; width: 50; z-index: -1;">
+    <!--z-index指明了该层的顺序，数字越大，层的位置就越靠前,缺省是0层，当为-1时，图片会在文字的下一层-->
+    <a href="table.htm"><img src=../res/baby.jpg width=80 border=0></a>
+</div>
+<!--<input type=button onclick="move()" value=move><br>-->
+
+<!--pre可以保持一段文字原来的排版格式不变-->
+ <pre>我和春天有个约会
+    主唱: 刘雅丽    作曲: 锺志荣    填词: 锺志荣
+    (电影"我和春天有个约会"主题曲   编曲: 温浩贤
+
+对白:「天地悠悠，情意绵绵，
+       若是有缘，相爱中的终会走在一起。」
+
+    夜阑人静处, 响起了一厥幽幽的 Saxophone,
+    牵起了... 愁怀於深心处;
+    夜阑人静处, 当听到这一厥幽幽的 Saxophone,
+    想起你... 茫然於漆黑夜半!
+
+    在这晚星月迷蒙, 盼再看到你脸容,
+    在这晚思念无穷, 心中感觉似法法操纵;
+    想终有日我面对你, 交底我内里情浓,
+    春风那日会为你跟我重逢... 吹送!!!
+
+ *  夜阑人静处, 当天际, 星与月渐渐流动;
+    感触有如... 潮水般汹涌;
+    若是情未冻, 请跟我哼这幽幽的 Saxophone,
+    於今晚... 柔柔的想我入梦中! (它可以...柔柔将真爱为你送!) *   (REPEAT *)
+
+    若是情未冻, 始终相信,
+    我俩与春天有个约会...
+    I have a date....with spring!
+    </pre>
+
+

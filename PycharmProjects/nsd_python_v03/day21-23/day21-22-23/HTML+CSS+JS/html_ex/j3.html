@@ -1,0 +1,12 @@
+name<input name="xm">
+
+<input type="button" value="go" onclick="getinfo()">
+
+<script>
+    function getinfo(){
+        ed=document.getElementsByName('xm')[0];
+        s=ed.value
+        alert(s);
+        ed.value='hello world';
+    }
+</script>

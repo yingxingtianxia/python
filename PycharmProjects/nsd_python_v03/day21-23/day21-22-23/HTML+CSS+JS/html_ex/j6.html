@@ -1,0 +1,20 @@
+age<input id=age onblur="myblur(this)"><br>
+address<input id=a ><br>
+<script>
+    function myblur(age){
+        //alert(age.value);
+        if(!isNaN(parseFloat(age.value)) && isFinite(age.value)){
+            nage=parseInt(age.value)
+            if(nage<0 || nage>100){
+                alert("age is out range!");
+            }
+        }else{
+            alert("age must be number!");
+            setTimeout("document.all.age.focus()",10);
+        }
+
+
+
+    }
+
+</script>

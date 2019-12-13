@@ -1,0 +1,22 @@
+<form id=fm action="/moon">
+name<input name="cname" id="cname"><span id="msg"></span><br>
+password<input type=password name="pwd">
+
+<br>
+
+<div style="border:1px solid red;width:100px" onclick="ck()">login</div>
+
+    <input type="submit" value="log">
+</form>
+
+<script>
+    function ck(){
+        if(document.all.cname.value.trim()==""){
+            alert('aa');
+            document.all.msg.innerHTML='cannot Empty!';
+            return;
+        }
+        document.all.fm.submit();
+
+    }
+</script>

@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+<script src="js/jquery.js"></script>
+
+<script>
+    flag=0;
+    function ck(){
+        flag=!flag;
+        $('div').toggle();
+        if(flag){
+            $('.b1').attr('value','^');
+        }else{
+            $('.b1').attr('value','>');
+        }
+
+    }
+
+
+
+</script>
+<style>
+    div{
+    width:300px;
+    height:100px;
+    border:1px solid black;
+    }
+
+</style>
+<input><input type="button" value="search">
+<input class=b1 type="button" value=^ onclick="ck()">
+
+<div>
+    <input type="checkbox"> 七匹狼
+    <input type="checkbox"> 红倾听
+</div>
+this is testthis is testthis is testthis is testthis is test

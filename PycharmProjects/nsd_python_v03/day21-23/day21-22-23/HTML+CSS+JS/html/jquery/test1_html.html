@@ -1,0 +1,49 @@
+<html>
+<meta charset="utf-8"/>
+<script type="text/javascript" src="../res/js/jquery-3.1.0.min.js"></script>
+
+<script type="text/javascript">
+    function myclick(mode) {
+        //改变内容
+        if (mode == 1) {
+            alert( $("#id1").text);
+            $("#id1").html("太阳出来了!");
+        } else if (mode == 2) {
+            $("#id1").append(", it's beautiful!");
+        } else if (mode == 3) {
+            $("#id1").prepend("你说:");
+        } else {
+            $("#id1").html("<input type=text value='ALice'>");
+        }
+    }
+
+
+</script>
+<style>
+    #id1 {
+        width: 300px;
+        height: 100px;
+        border: 1px solid black;
+    }
+
+    input {
+        width: 60px;
+        height: 40px;
+        background-color: #00b3ee;
+    }
+
+</style>
+
+
+<body>
+<div id="id1">Hello World</div>
+
+<input type="button" value="change" onclick="myclick(1)"/>
+<input type="button" value="append" onclick="myclick(2)"/>
+<input type="button" value="prepend" onclick="myclick(3)"/>
+<input type="button" value="button" onclick="myclick(4)"/>
+
+
+</body>
+
+</html>

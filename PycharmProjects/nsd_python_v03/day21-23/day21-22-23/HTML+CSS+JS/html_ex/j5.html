@@ -1,0 +1,18 @@
+<input id=aa onfocus="myfocus(this)" onblur="myblur(this)"><br>
+<input type="button" value="go" onclick="myblur2()">
+<script>
+    function myfocus(a){
+        a.value='aaaa';
+    }
+
+    function myblur(a){
+        a.value='bbbb';
+        setTimeout("myblur2()",2000);
+
+    }
+    function myblur2(){
+
+        document.all.aa.focus();
+
+    }
+</script>

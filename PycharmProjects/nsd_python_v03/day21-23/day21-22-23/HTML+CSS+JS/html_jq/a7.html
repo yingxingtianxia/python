@@ -1,0 +1,52 @@
+<meta charset="UTF-8">
+<script src="js/jquery.js"></script>
+
+<script>
+    flag=0;
+    function ck(){
+        flag=!flag;
+        if(flag){
+            $('div').animate(
+                {'height':'0px'},
+                500,
+                ()=>{
+                    $('div').hide()
+                }
+                );
+            //setTimeout("$('div').hide()",2000);
+        }else{
+            $('div').show();
+            $('div').animate({'height':'100px'},2000);
+        }
+    }
+
+
+
+
+</script>
+<style>
+    div{
+    width:300px;
+    height:100px;
+    border:1px solid black;
+    overflow:hidden;
+    }
+
+</style>
+<input><input type="button" value="search">
+<input class=b1 type="button" value=^ onclick="ck()">
+
+<div>
+    <input type="checkbox"> 七匹狼
+    <input type="checkbox"> 红倾听
+    <input type="checkbox"> 七匹狼
+    <input type="checkbox"> 红倾听
+    <input type="checkbox"> 七匹狼
+    <input type="checkbox"> 红倾听 <input type="checkbox"> 七匹狼
+    <input type="checkbox"> 红倾听
+    <input type="checkbox"> 七匹狼
+    <input type="checkbox"> 红倾听 <input type="checkbox"> 七匹狼
+    <input type="checkbox"> 红倾听
+    <input type="checkbox"> 七匹狼
+    <input type="checkbox"> 红倾听
+</div>

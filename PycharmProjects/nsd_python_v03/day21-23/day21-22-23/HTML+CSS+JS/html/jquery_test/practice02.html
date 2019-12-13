@@ -1,0 +1,37 @@
+<meta charset="utf-8">
+
+<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+
+<style>
+
+    .css1{
+        width:400px;
+        height:200px;
+        background-color:#F00;
+    }
+
+
+</style>
+
+<script>
+    flag=true;
+    function myfun(){
+        if(flag){
+            $(".css1").css("background-color","green");
+            flag=false;
+        }else{
+            $(".css1").css("background-color","red");
+          flag=true;
+
+        }
+    }
+
+</script>
+
+
+<div  class="css1">
+    How are you?
+</div>
+
+
+<input type="button" value="change" onclick="myfun()">

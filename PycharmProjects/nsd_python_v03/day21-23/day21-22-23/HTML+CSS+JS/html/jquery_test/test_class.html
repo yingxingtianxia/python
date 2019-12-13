@@ -1,0 +1,36 @@
+<meta charset="utf-8">
+
+<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+<style>
+    .div1{
+        width:200px;
+        height:200px;
+        background-color:red;
+    }
+
+</style>
+
+<script>
+    function changeClass(){
+     $("#div1").addClass("div1");
+    }
+
+    function changeClass2(){
+       $("#div2").removeClass("div1");
+    }
+
+</script>
+<div id="div1" >
+    aaaa
+</div>
+
+
+<hr>
+
+<div id="div2"  class="div1">
+    bbbb
+</div>
+
+
+<input type="button" value="change" onclick="changeClass()">
+<input type="button" value="remove" onclick="changeClass2()">

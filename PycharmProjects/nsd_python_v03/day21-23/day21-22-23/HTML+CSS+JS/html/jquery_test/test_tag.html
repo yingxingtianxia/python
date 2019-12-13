@@ -1,0 +1,40 @@
+<meta charset="utf-8">
+
+
+<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+<style>
+    .mydiv{
+        width:200px;
+        height:200px;
+        background-color:red;
+
+    }
+    .mydiv2{
+         width:200px;
+        height:200px;
+        background-color:green;
+    }
+</style>
+<!--
+document.getElementByName()   $("div")
+
+-->
+<script>
+    function change_html(){
+        $("div").html("hi");
+     }
+
+</script>
+
+
+<div  class="mydiv" onclick="change_html()">
+    Hello world
+</div>
+
+
+<hr>
+
+
+<div class="mydiv2" onclick="change_html()">
+    Hello world
+</div>

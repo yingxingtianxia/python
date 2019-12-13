@@ -1,0 +1,25 @@
+<meta charset="utf-8">
+
+<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+<style>
+    .div1{
+        width:200px;
+        height:200px;
+        background-color:red;
+    }
+
+</style>
+
+<script>
+    function myanimate(){
+        $(".div1").animate({"width":"500px","height": "500px","background-color":"#00F"},"slow");
+
+    }
+
+</script>
+<div id="div1" class="div1" >
+aaaa
+</div>
+
+
+<input type="button" value="animate" onclick="myanimate()">

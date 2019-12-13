@@ -1,0 +1,49 @@
+<style>
+    body,*{
+    margin:0 auto;
+    }
+    .f0{
+    border:1px solid blue;
+    width:500px;
+    }
+    .son1{
+        border:1px solid red;
+        width:200px;
+        height:50px;
+        float:left;
+        margin:10px;
+        background-image:url(res/baby.jpg)
+    }
+
+    .son2{
+        border:1px solid black;
+        width:200px;height:50px;
+        float:left;
+        margin:10px;
+        background-color:gray;
+        color:maroon;
+        text-align:center;
+        line-height:50px;
+        font-size:30px;
+    }
+    input{
+        color:red;
+        font-size:30px;
+        height:30px;
+        border:0;
+    }
+</style>
+
+<script>
+function ck(){
+    //alert('aa');
+    c=document.all.ed.value;
+    document.bgColor=c;
+}
+</script>
+
+<div class="f0">
+    <div class="son1"><input type="text" id="ed"></div>
+    <div class="son2" onclick="ck()">change it</div>
+    <div style="clear:both"></div>
+</div>

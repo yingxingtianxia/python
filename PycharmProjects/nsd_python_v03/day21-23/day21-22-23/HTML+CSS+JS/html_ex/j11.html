@@ -1,0 +1,39 @@
+<input id="display" style="height:50px;width:300px;
+background-color:black;font-size:30px;color:white">
+<br>
+<input type="button" value="0" onclick="cm(0)">
+<input type="button" value="1" onclick="cm(1)">
+<input type="button" value="2" onclick="cm(0)">
+<input type="button" value="3" onclick="cm(1)">
+<input type="button" value="4" onclick="cm(0)">
+<br>
+<input type="button" value="5" onclick="cm(1)">
+<input type="button" value="6" onclick="cm(0)">
+<input type="button" value="7" onclick="cm(0)">
+<input type="button" value="8" onclick="cm(1)">
+<input type="button" value="9" onclick="cm(0)">
+<br>
+
+<input type="button" value="+" onclick="cm('+')">
+<input type="button" value="-" onclick="cm('+')">
+<input type="button" value="*" onclick="cm('+')">
+<input type="button" value="/" onclick="cm('+')">
+<input type="button" value="=" onclick="cal()">
+<br>
+<input type="button" value="clr" onclick="clr()">
+
+<script>
+    function cm(c){
+        d=document.all.display;
+        d.value=d.value+c;
+    }
+
+    function cal(c){
+        d=document.all.display;
+        d.value=d.value+"="+eval(d.value);
+    }
+    function clr(){
+        d=document.all.display;
+        d.value="";
+    }
+</script>

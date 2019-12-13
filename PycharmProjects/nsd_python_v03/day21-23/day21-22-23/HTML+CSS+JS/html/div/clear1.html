@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset=" utf-8">
+    <meta name="author" content="http://www.softwhy.com/"/>
+    <title>浮动清除-有目的的折行</title>
+
+    <style type="text/css">
+        /*
+            1.在一个容器内,所有子div浮动,按正常浮动规则排列及折行
+            2. 如果想让某个子div换行,就需要清除浮动
+            3. 换行后,其后子div按正常浮动继续排列
+        */
+        .f {
+            width: 460px;
+            border: 1px solid red;
+            overflow: hidden;
+        }
+
+        .t0 {
+            width: 100px;
+            height: 120px;
+            background-color: green;
+            margin-right: 2px;
+            border: 1px solid red;
+            float: left;
+        }
+
+        .t1 {
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            margin-right: 2px;
+            float: left;
+            border: 1px solid blue;
+        }
+
+        .clear{
+            clear: both;
+        }
+
+    </style>
+</head>
+<body>
+<div class="f">
+    <div class="t0">1</div>
+    <div class="t1">2</div>
+    <div class="t1 clear">3</div>
+    <div class="t1 clear">4</div>
+    <div class="t1">5</div>
+
+</div>
+</body>
+</html>

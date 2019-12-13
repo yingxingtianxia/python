@@ -1,0 +1,16 @@
+<a href="/a/b?name=tom&password=123">login</a>
+<a href="" onclick="return mylink()">goto Sohu</a>
+
+<input type="button" onclick="ck()" value="go">
+
+<script>
+    function ck(){
+        document.location.href='/moon?cname=alice&age=12';
+    }
+
+
+    function mylink(){
+        document.location.href='http://www.sohu.com';
+        return false;
+    }
+</script>

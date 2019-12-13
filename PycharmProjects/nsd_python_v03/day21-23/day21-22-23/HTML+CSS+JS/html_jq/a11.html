@@ -1,0 +1,52 @@
+<meta charset="UTF-8">
+<script src="js/jquery.js"></script>
+
+
+<style>
+    .d1{
+        width:400px;
+        height:30px;
+        border: 1px solid red;
+        margin:10px;
+    }
+    .d2{
+        width:200px;
+        height:100px;
+        border: 1px solid blue;
+        margin:10px;
+    }
+    .c1{
+        border: 1px solid maroon;
+        float:left;
+        margin:5px;
+    }
+</style>
+
+<script>
+    $(function(){
+        $('.c1').click(function(){
+            var s=$(this).html();
+            var id=$(this).attr('id');
+            console.log("id="+id);
+            $(this).hide();
+            var p2=$('.d1').append("<div class=c1 id=d"+id+">"+s+"</div>");
+            $('#d'+id).click(function(){
+                var id=$(this).attr("id");
+                console.log("dp_id="+id);
+                $(this).remove();
+                id=id.substr(1);
+                console.log("id2="+id);
+                $('#'+id).show();
+            });
+        });
+
+    });
+</script>
+
+<div class="d1"></div>
+<div class="d2">
+    <div class="c1" id="p1">ADidas</div>
+    <div class="c1" id="p2">Newbalance</div>
+    <div class="c1" id="p3">Northwind</div>
+    <div class="c1" id="p4">Piercard</div>
+</div>

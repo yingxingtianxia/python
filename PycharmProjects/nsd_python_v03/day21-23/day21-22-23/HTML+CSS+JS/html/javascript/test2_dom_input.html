@@ -1,0 +1,40 @@
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>dom对象-元素定位</title>
+</head>
+
+<script>
+    function getText() {
+        alert("xm=" + document.getElementById("xm").value);
+
+        alert("who=" + document.getElementsByName("who")[0].value);
+    }
+
+    function changeText() {
+        document.getElementById("xm").value = "This is a world!";
+    }
+
+    function changeRadio() {
+        document.getElementsByName("citys")[2].checked = 1;
+    }
+
+</script>
+
+
+<body>
+<input type="button" value="getText" onclick="getText()"/>
+<input type="button" value="changeText" onclick="changeText()"/>
+<br>
+<input type="text" id="xm" name="who" value="李达">
+
+<hr>
+<input type="button" value="changeRadio" onclick="changeRadio()"/>
+<br>
+<input type="radio" name=citys /> 南京
+<input type="radio" name=citys checked/> 西安
+<input type="radio" name=citys /> 杭州
+
+</body>
+
+</html>

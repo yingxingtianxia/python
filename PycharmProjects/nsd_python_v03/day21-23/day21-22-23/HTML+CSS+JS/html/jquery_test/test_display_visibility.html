@@ -1,0 +1,38 @@
+<meta charset="utf-8">
+
+<script type="text/javascript" src="./js/jquery-3.1.0.min.js"></script>
+<style>
+    .div1{
+        width:200px;
+        height:200px;
+        background-color:red;
+    }
+
+</style>
+
+<script>
+    function myfun1(){
+         $("#div1").css("display","none");
+    }
+
+    function myfun2(){
+        $("#div2").css("visibility","hidden");
+    }
+
+
+</script>
+
+<div id="div1" class="div1">
+    aaaa
+</div>
+<hr>
+<div id="div2" class="div1">
+    bbbb
+</div>
+<input type="button" value="display" onclick="myfun1()">
+
+
+
+
+
+<input type="button" value="visibility" onclick="myfun2()">

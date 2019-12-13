@@ -1,0 +1,220 @@
+<html>
+<head>
+    <title>wsr calculate</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+    <style type="text/css">
+        <!--
+        .st_button {
+            width: 50px;
+            background-color: #CCCCCC
+        }
+
+        .st_sp {
+            width: 195px;
+            height: 45px;
+            background-color: #99CCCC;
+            font-family: "Times New Roman", "Times", "serif";
+            font-size: 16pt;
+            font-style: normal;
+            color: #FF0000;
+            text-decoration: blink
+        }
+
+        table {
+            background-color: #CCCCCC;
+            border-color: #666666 #FFFFFF #FFFFFF #666666;
+            border-style: solid;
+            border-top-width: 1px;
+            border-right-width: 1px;
+            border-bottom-width: 1px;
+            border-left-width: 1px
+        }
+
+        -->
+    </style>
+</head>
+
+<body bgcolor="#CCCCCC">
+<p>
+    <script>
+        function hello(tt) {
+            myform.sp.value = myform.sp.value + tt;
+        }
+
+        function calculate() {
+            myform.sp.value = myform.sp.value + "=" + eval(myform.sp.value);
+        }
+
+        function clscreen() {
+            myform.sp.value = "";
+        }
+
+    </script>
+</p>
+<form name=myform>
+    <table width="205" border="0" cellspacing="0" cellpadding="0" align="center" bordercolorlight="#0000FF"
+           bordercolordark="#CC0033">
+        <tr>
+            <td colspan="4" height="37">
+                <div align="center">
+                    <input type="text" name="sp" class=st_sp>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button24" value="sin" onclick="hello('Math.sin')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button25" value="+" onclick="hello('+')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button220" value="(" onClick="hello('(')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button221" value=")" onClick="hello(')')" class=st_button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button28" value="cos" onclick="hello('Math.cos')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button214" value="-" onclick="hello('-')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button2233" value="." onClick="hello('.')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button26" value="log" onClick="hello('Math.log')" class=st_button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td height="29">
+                <div align="left">
+                    <input type="button" name="Button29" value="tan" onclick="hello('Math.tan')" class=st_button>
+                </div>
+            </td>
+            <td height="29">
+                <div align="left">
+                    <input type="button" name="Button215" value="*" onclick="hello('*')" class=st_button>
+                </div>
+            </td>
+            <td height="29">
+                <div align="left">
+                    <input type="button" name="Button231" value="cls" onClick="clscreen()" class=st_button>
+                </div>
+            </td>
+            <td height="29">
+                <div align="left">
+                    <input type="button" name="Button219" value="exp" onClick="hello('Math.exp')" class=st_button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button210" value="atn" onclick="hello('Math.atn')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button216" value="/" onclick="hello('/')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button211" value="0" onclick="hello('0')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button217" value="1" onclick="hello('1')" class=st_button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button2292" value="2" onclick="hello('2')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button229" value="3" onclick="hello('3')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button212" value="4" onclick="hello('4')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button218" value="5" onclick="hello('5')" class=st_button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button223" value="6" onclick="hello('6')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button230" value="7" onclick="hello('7')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button213" value="8" onclick="hello('8')" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button225" value="9" onclick="hello('9')" class=st_button>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div align="left">
+                    <input type="button" name="Button2232" value="=" onClick="calculate()" class=st_button>
+                </div>
+            </td>
+            <td>
+                <div align="left"></div>
+            </td>
+            <td>
+                <div align="left"></div>
+            </td>
+            <td>
+                <div align="left"></div>
+            </td>
+        </tr>
+    </table>
+    <p align="right">&nbsp;</p></form>
+<p>
+    <b>
+<pre>&nbsp;
+</pre>
+    </b>
+</body>
+</html>
