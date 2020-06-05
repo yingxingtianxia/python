@@ -3,7 +3,7 @@ cffi==1.11.5
 cryptography==2.3.1
 dj-database-url==0.5.0
 dj-static==0.0.6
-Django==1.11.8
+Django==1.11.29
 django-bootstrap3==11.0.0
 gunicorn==19.9.0
 idna==2.7
